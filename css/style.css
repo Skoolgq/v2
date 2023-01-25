@@ -16,6 +16,7 @@ body.dark-mode{
   font-weight: 100;
   font-size: 120px;
   margin: auto;
+  text-align: center;
 }
 #iframe{
   width: 90%;
