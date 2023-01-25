@@ -7,34 +7,46 @@ body{
     background-color: #36393e;
     color: #FB2576;
 }
-.night{
+body.dark-mode{
     background-color: white;
     color: black;
 }
 #iframe{
   width: 90%;
 }
-.dntoggle{
-  font-size: 28px;
-  border-radius: 100px;
-  background-color: #111111;
-  padding: 15px;
-  color:#fcfcfc;
-  box-shadow: 1px 2px 6px rgba(0,0,0,.3);
-  cursor: pointer;
-  
-  position: fixed;
-  bottom:20px;
-  right: 20px;
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
 
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
+.checkbox-label {
+  background-color: #111;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.fa-moon-o:before{
-  padding:0 2px;
+
+.fa-moon {color: #f1c40f;}
+
+.fa-sun {color: #f39c12;}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
 }
-.fa-sun-o{
-  background-color: #212121;
-  color:#ccc;
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
 }
