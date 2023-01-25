@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   
-  var p      = document.getElementsByTagName('h1')[0],
+  var p      = document.getElementsByTagName('h1')[1],
       chars  = p.textContent.split(''),
       length = chars.length,
       shift  = 360 / length,
