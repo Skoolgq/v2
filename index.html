@@ -33,38 +33,17 @@
   <br>
   <br>
   <br>
-  <iframe id="iframe" src="/select.md"></iframe>
+ <div>
+  <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="checkbox-label">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+    <span class="ball"></span>
+  </label>
+</div>
   <button class="glow-on-hover" id="fullscreen-button"><span class="material-symbols-outlined">
 fullscreen
 </span></button>
-  <button id="dark-mode-button">Toggle Mode (ew)</button>
-<select id="links-dropdown" onchange="changeIframe(this.value)">
-    <option value="link1">Choose a game</option>
-    <option value="link2">Link 2</option>
-    <option value="link3">Link 3</option>
-  </select>
-  <!--END EDITABLE HTML-->
-  <script src="/js/iframe-links.js"></script>
-  <script>
-    var iframe = document.getElementById("iframe");
-    var fullscreenButton = document.getElementById("fullscreen-button");
 
-    fullscreenButton.addEventListener("click", function() {
-      if (iframe.requestFullscreen) {
-        iframe.requestFullscreen();
-      } else if (iframe.webkitRequestFullscreen) {
-        iframe.webkitRequestFullscreen();
-      } else if (iframe.mozRequestFullScreen) {
-        iframe.mozRequestFullScreen();
-      } else if (iframe.msRequestFullscreen) {
-        iframe.msRequestFullscreen();
-      }
-    });
-  </script>
-  <script>
-    var darkModeButton = document.getElementById("dark-mode-button");
-    darkModeButton.addEventListener("click", function() {
-      document.body.classList.toggle("dark-mode");
-    });
-  </script>
+  <!--END EDITABLE HTML-->
 </body>
