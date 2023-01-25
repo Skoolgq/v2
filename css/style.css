@@ -18,6 +18,17 @@ body.dark-mode{
   margin: auto;
   text-align: center;
 }
+body.dark-mode .homename{
+  font-family: 'Lato';
+  font-weight: 100;
+  font-size: 120px;
+  color: white;
+  text-align: center;
+}
+p{
+  font-family: 'Nunito Sans';
+  font-size: 20px;
+}
 #iframe{
   width: 90%;
 }
