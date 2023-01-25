@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    background-color: #36393e;
+    color: #FB2576;
+}
+body.dark-mode{
+    background-color: white;
+    color: black;
+}
+#iframe{
+  width: 90%;
+}
