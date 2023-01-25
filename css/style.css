@@ -5,7 +5,7 @@ html, body {
 }
 body{
     background-color: #36393e;
-    color: #FB2576;
+    color: white;
 }
 body.dark-mode{
     background-color: white;
@@ -28,6 +28,7 @@ body.dark-mode .homename{
 p{
   font-family: 'Nunito Sans';
   font-size: 20px;
+  text-align: center;
 }
 #iframe{
   width: 90%;
