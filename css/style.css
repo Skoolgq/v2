@@ -11,9 +11,11 @@ body.dark-mode{
     background-color: white;
     color: black;
 }
-h1{
+.homename{
   font-family: 'Lato';
   font-weight: 100;
+  font-size: 120px;
+  margin: auto;
 }
 #iframe{
   width: 90%;
