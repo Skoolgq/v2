@@ -139,6 +139,6 @@ a:link{
   font-size: 2em;
 }
 #fullscreen-button{
-  bottom: 10px;
-  right: 20px;
+  bottom: -50px;
+  right: 10px;
 }
