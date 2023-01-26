@@ -5,6 +5,7 @@ html, body {
 }
 body{
     background-image: url('/backgrounds/mainbg.gif');
+    background-size: cover;
     color: white;
 }
 body.dark-mode{
