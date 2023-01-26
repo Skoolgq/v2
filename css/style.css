@@ -93,3 +93,35 @@ p{
   margin: auto;
   width: 700px;
 }
+.gameinfo{
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
+.gameimage{
+  width: 150px;
+  height: 150px;
+  display:inline-block; 
+  padding:0px; 
+  margin:0px;
+  border-radius: 20px;
+}
+.gamecard{
+  width: 150px;
+  background-color: #2e2e2e;
+  padding: 10px; 
+  margin:0px;
+  border-radius: 20px;
+  transition: transform .5s;
+}
+.gamecard:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.gamename{
+  font-size: 20px;
+}
+a:link{
+  text-decoration: none;
+}
