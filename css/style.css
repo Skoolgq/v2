@@ -5,7 +5,9 @@ html, body {
   width: 100%;
 }
 body.light {
-  background-color: #36393e;
+  background-image: url('/backgrounds/mainbg.gif');
+  background-size: cover;
+  /*background-color: #36393e;*/
   color: white;
 }
 
@@ -97,7 +99,7 @@ p{
   color: white;
   text-align: center;
   padding: 3px;
-  font-size: 5px;
+  font-size: 9px;
 }
 .gameimage{
   width: 150px;
