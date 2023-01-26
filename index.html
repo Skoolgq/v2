@@ -24,14 +24,14 @@
                 <li><a href="#">Unblocker</a></li>
                 <li><a href="#">Hacks</a></li>
                 <li><a href="#">Extras</a></li>
-                <li> <div>
-  <input type="checkbox" class="checkbox" id="checkbox">
-  <label for="checkbox" class="checkbox-label">
-    <i class="fas fa-sun fa-xs"></i>
-    <i class="fas fa-moon fa-xs"></i>
-    <span class="ball"></span>
-  </label>
-</div></li>
+                <li><div id="theme-toggle">
+    <button id="light-mode" class="active" onclick="switchTheme('light')">
+      <img src="moon-solid.svg" alt="dark mode icon">
+    </button>
+    <button id="dark-mode" onclick="switchTheme('dark')">
+      <img src="sun-solid.svg" alt="dark mode icon">
+    </button>
+  </div></li>
             </ul>
             <h1 class="logo">The Nexus</h1>
         </div>
