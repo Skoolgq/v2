@@ -4,8 +4,8 @@ html, body {
   width: 100%;
 }
 body{
-    background-image: url('/backgrounds/mainbg.gif');
-    background-size: cover;
+    /*Do not change image we can have a settings page but it looks better rn. leave it.*/
+    background-color: #36393e;
     color: white;
 }
 body.dark-mode{
