@@ -138,3 +138,6 @@ a:link{
 #thumbs-up i, #thumbs-down i {
   font-size: 2em;
 }
+#fullscreen-button{
+  right: 20px;
+}
