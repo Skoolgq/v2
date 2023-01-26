@@ -125,3 +125,16 @@ body.dark-mode .homename{
 a:link{
   text-decoration: none;
 }
+#votes {
+  display: flex;
+  align-items: center;
+}
+
+#thumbs-up, #thumbs-down {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#thumbs-up i, #thumbs-down i {
+  font-size: 2em;
+}
