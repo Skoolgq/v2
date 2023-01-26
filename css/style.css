@@ -71,8 +71,8 @@ p{
   justify-content: space-between;
   align-items: center;
 }
-.fa-moon {color: #f1c40f;}
-.fa-sun {color: #f39c12;}
+.fa-moon {color: white;}
+.fa-sun {color: white;}
 .checkbox-label .ball {
   background-color: #fff;
   width: 22px;
