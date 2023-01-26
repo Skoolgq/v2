@@ -39,23 +39,6 @@
         </div>
     </nav>
   <script src="/js/navbar.js"></script>
-  <script>
-  barba.init({
-  transitions: [{
-    name: 'opacity-transition',
-    leave(data) {
-      return gsap.to(data.current.container, {
-        opacity: 0
-      });
-    },
-    enter(data) {
-      return gsap.from(data.next.container, {
-        opacity: 0
-      });
-    }
-  }]
-});
-</script>
   <!--BEGIN EDITABLE HTML-->
   <br>
   <br>
@@ -65,32 +48,8 @@
   <iframe style="left: 100; position: absolute; border: 2vw solid black; border-radius: 1vw;" id="game-frame" scrolling="no" frameborder="0" width="85%" height="75%" cellspacing="0" src="https://3kho.github.io/projects/subway-surfers/index.html"></iframe>
   <button class="glow-on-hover" style="width:50px;height:50px;" id="fullscreen-button" onclick="fullscreen()"><i class="fa-solid fa-expand"></i></button>
   </div>
-  <div id="votes">
-  <div id="thumbs-up" onclick="vote(this)">
-    <i class="fa fa-thumbs-up"></i>
-    <span id="upvotes">0</span>
-  </div>
-  <div id="thumbs-down" onclick="vote(this)">
-    <i class="fa fa-thumbs-down fa-xl"></i>
-    <span id="downvotes">0</span>
-  </div>
-</div>
   <!--END EDITABLE HTML-->
   <script src="/js/theme.js"></script>
   <script src="/js/rainbowtext.js"></script>
   <script src="/js/fullscreen.js"></script>
-  <script>
-    let upvotes = 0;
-let downvotes = 0;
-
-function vote(element) {
-  if (element.id === "thumbs-up") {
-    upvotes++;
-    document.getElementById("upvotes").innerHTML = upvotes;
-  } else {
-    downvotes++;
-    document.getElementById("downvotes").innerHTML = downvotes;
-  }
-}
-  </script>
 </body>
