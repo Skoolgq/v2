@@ -109,7 +109,7 @@ body.dark-mode .homename{
   width: 170px;
   background-color: #2e2e2e;
   padding: 10px; 
-  margin: auto;
+  margin: 10px;
   border-radius: 20px;
   transition: transform .5s;
 }
