@@ -46,7 +46,31 @@
   <button class="glow-on-hover" id="fullscreen-button"><span class="material-symbols-outlined">
 fullscreen
 </span></button>
+  <div id="votes">
+  <div id="thumbs-up" onclick="vote(this)">
+    <i class="fa fa-thumbs-up"></i>
+    <span id="upvotes">0</span>
+  </div>
+  <div id="thumbs-down" onclick="vote(this)">
+    <i class="fa fa-thumbs-down"></i>
+    <span id="downvotes">0</span>
+  </div>
+</div>
   <!--END EDITABLE HTML-->
   <script src="/js/theme.js"></script>
   <script src="/js/rainbowtext.js"></script>
+  <script>
+    let upvotes = 0;
+let downvotes = 0;
+
+function vote(element) {
+  if (element.id === "thumbs-up") {
+    upvotes++;
+    document.getElementById("upvotes").innerHTML = upvotes;
+  } else {
+    downvotes++;
+    document.getElementById("downvotes").innerHTML = downvotes;
+  }
+}
+  </script>
 </body>
