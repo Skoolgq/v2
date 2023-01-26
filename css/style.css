@@ -4,7 +4,7 @@ html, body {
   width: 100%;
 }
 body{
-    background-color: #36393e;
+    background-image: url('/backgrounds/mainbg.gif');
     color: white;
 }
 body.dark-mode{
