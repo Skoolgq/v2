@@ -9,7 +9,7 @@ body{
     color: white;
 }
 body.dark-mode{
-    background-color: white;
+    background-color: #759bd9;
     color: black;
 }
 .homename{
