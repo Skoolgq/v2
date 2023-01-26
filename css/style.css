@@ -8,12 +8,12 @@ body.light {
   background-image: url('/backgrounds/mainbg.gif');
   background-size: cover;
   /*background-color: #36393e;*/
-  color: white;
+  color: black;
 }
 
 body.dark {
-  background-color: #d9a275;
-  color: black;
+  background-color: #36393e;
+  color: white;
 }
 
 #theme-toggle {
