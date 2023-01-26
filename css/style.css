@@ -27,7 +27,7 @@ body.dark {
 #theme-toggle button.active {
   /* styles for the active toggle button */
 }
-p{
+.homedesc {
   font-family: 'Nunito Sans';
   font-size: 20px;
   text-align: center;
@@ -47,11 +47,6 @@ body.dark-mode .homename{
   font-weight: 100;
   font-size: 120px;
   color: white;
-  text-align: center;
-}
-p{
-  font-family: 'Nunito Sans';
-  font-size: 20px;
   text-align: center;
 }
 #iframe{
@@ -100,6 +95,7 @@ p{
   text-align: center;
   padding: 3px;
   font-size: 9px;
+  font-family: 'Nunito Sans';
 }
 .gameimage{
   width: 150px;
@@ -124,6 +120,7 @@ p{
 }
 .gamename{
   font-size: 20px;
+  font-family: 'Nunito Sans';
 }
 a:link{
   text-decoration: none;
