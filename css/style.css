@@ -70,3 +70,10 @@ p{
 .checkbox:checked + .checkbox-label .ball {
   transform: translateX(24px);
 }
+
+.homenamebox{
+  background-color: #36393e;
+  border-radius:20px;
+  margin: auto;
+  width: 150px;
+}
