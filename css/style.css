@@ -4,6 +4,10 @@ html, body {
   height: 100%;
   width: 100%;
 }
+@keyframes fade-in-move-up {
+    0% {opacity: 0%; top: 110%;}
+    100% {opacity: 100%; top: 50%}
+}
 body.light {
   background-image: url('/backgrounds/mainbg.gif');
   background-size: cover;
@@ -141,4 +145,9 @@ a:link{
 #fullscreen-button{
   bottom: -430px;
   right: -1300px;
+}
+h1{
+  animation-name: fade-in-move-up;
+    animation-duration: 0.8s;
+    animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 }
