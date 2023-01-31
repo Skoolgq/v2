@@ -196,4 +196,7 @@ li {
   width: 400px;
   height: 65px;
   font-size: 30px;
+  background-color: #36393e;
+  color: #fff;
+  border-radius: 10px;
 }
