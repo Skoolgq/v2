@@ -116,6 +116,13 @@ body.dark-mode .homename{
   margin: 10px;
   border-radius: 20px;
   transition: transform .5s;
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .gamecard:hover{
   -ms-transform: scale(1.1); /* IE 9 */
