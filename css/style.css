@@ -192,6 +192,7 @@ li {
 }
 .searchbox{
   left: 50%;
-  width: 50px;
-  height: 20px;
+  right: 50%;
+  width: 400px;
+  height: 100px;
 }
