@@ -117,6 +117,7 @@ body.dark-mode .homename{
   border-radius: 20px;
   transition: transform .5s;
   justify-content: left;
+  display: row;
 }
 .gamecard:hover{
   -ms-transform: scale(1.1); /* IE 9 */
