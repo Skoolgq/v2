@@ -164,3 +164,12 @@ h1{
     animation-duration: 0.8s;
     animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 }
+#mySearch {
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+  padding: 11px;
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  background-color: rgb(53, 53, 53);
+}
