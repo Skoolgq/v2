@@ -62,11 +62,13 @@
   <br>
   <br>
   <div class="text-center">
-      <input type="text" class="text-center" id="mySearch" onload="startSearch()" onkeyup="startSearch()" placeholder="Search for games..." title="Search" autofocus />
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for games.." title="Type in a game">
     </div>
     <script src="/js/search.js"></script>
   <div id="search" class="search-container">
   <div class="gamecontainer">
+  <ul id="myUL">
+  <li>
   <div class="gamecard">
     <a href="#" onclick="localStorage.setItem('currentgame', 'https://3kho.github.io/projects/subway-surfers/index.html'); window.location.href = 'play';">
     <img src="https://play-lh.googleusercontent.com/NVJuKheL9D0uzQf-QNTBtcr7BzfUwwqi4-zKVddVdxrsMdoNAv7k332oso9th4ns4Xwa" class="gameimage"/>
@@ -76,7 +78,8 @@
     </div>
     </a>
   </div>
-    
+  </li>
+  <li>
   <div class="gamecard">
     <a href="#" onclick="localStorage.setItem('currentgame', 'https://skoolgq.github.io/gamelist/gfiles/flash/?swf=1on1soccer.swf'); window.location.href = 'play';">
     <img src="https://tcf.admeen.org/category/500/1/400x400/1-on-1-soccer.jpg" class="gameimage"/>
@@ -86,7 +89,8 @@
     </div>
     </a>
   </div>
-   
+  </li>
+  <li>
   <div class="gamecard">
     <a href="#" onclick="localStorage.setItem('currentgame', 'https://1v1lolunblocked.com/games/1v1-lol-4/index.php'); window.location.href = 'play';">
     <img src="https://repository-images.githubusercontent.com/547809200/a28ac12a-6cb3-48dd-9a35-04118fd0a68c" class="gameimage"/>
@@ -96,7 +100,8 @@
     </div>
     </a>
   </div>
-   
+  </li>
+  <li>
   <div class="gamecard">
     <a href="#" onclick="localStorage.setItem('currentgame', 'https://funhtml5games.com/2048/index.html'); window.location.href = 'play';">
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/2048_logo.png" class="gameimage"/>
@@ -106,7 +111,8 @@
     </div>
     </a>
   </div>
-    
+  </li>
+  <li>
   <div class="gamecard">
     <a href="#" onclick="localStorage.setItem('currentgame', 'https://8ball-pool.io/8-ball-pool.embed'); window.location.href = 'play';">
     <img src="https://cdn.jim-nielsen.com/ios/512/8-ball-pool-2021-08-05.png" class="gameimage"/>
@@ -116,7 +122,8 @@
     </div>
     </a>
   </div>
-    
+  </li>
+  <li>
   <div class="gamecard">
     <a href="#" onclick="localStorage.setItem('currentgame', 'https://gamesnacks.com/embed/games/99balls3d'); window.location.href = 'play';">
     <img src="https://appsgeyser.io/geticon.php?widget=99%20Balls%203D_16539720&width=512" class="gameimage"/>
@@ -126,11 +133,28 @@
     </div>
     </a>
   </div>
+    </li>
+    </ul>
   </div>
   <!--END EDITABLE HTML-->
   <script>
-    
-  </script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
   <script src="/js/theme.js"></script>
   <script src="/js/rainbowtext.js"></script>
 </body>
