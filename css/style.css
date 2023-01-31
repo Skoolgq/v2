@@ -190,3 +190,8 @@ li {
 *, *::before, *::after {
   box-sizing: border-box;
 }
+.searchbox{
+  left: 50%;
+  width: 50px;
+  height: 20px;
+}
