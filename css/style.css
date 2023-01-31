@@ -182,3 +182,8 @@ h1{
   align-items: center;
   justify-content: center;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
