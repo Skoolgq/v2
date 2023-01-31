@@ -117,7 +117,8 @@ body.dark-mode .homename{
   border-radius: 20px;
   transition: transform .5s;
   justify-content: left;
-  display: row;
+  float: left;
+  
 }
 .gamecard:hover{
   -ms-transform: scale(1.1); /* IE 9 */
@@ -128,7 +129,7 @@ body.dark-mode .homename{
   font-size: 20px;
   font-family: 'Nunito Sans';
 }
-.gamecontainer {
+.gamecontainer{
   display: flex;
   flex-direction: row;
   order: 0;
@@ -136,6 +137,7 @@ body.dark-mode .homename{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }  
 a:link{
   text-decoration: none;
