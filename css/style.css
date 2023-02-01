@@ -174,9 +174,9 @@ h1{
   background-color: rgb(53, 53, 53);
 }
 .search-container {
-  margin: 0;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
+  width: 50%;
+  text-align: center;
 }
 li {
   list-style-type: none;
@@ -187,11 +187,8 @@ li {
   box-sizing: border-box;
 }
 .searchbox{
-  /*left: 50%;
-  right: 50%;*/
   width: 400px;
   height: 65px;
-  justify-content: center;
   font-size: 30px;
   background-color: #36393e;
   color: #fff;
