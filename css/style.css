@@ -124,7 +124,7 @@ body.dark-mode .homename{
   font-size: 20px;
   font-family: 'Nunito Sans';
 }
-.gamecontainer{
+gamecontainer{
   display: flex;
   flex-direction: row;
   order: 0;
@@ -167,11 +167,11 @@ h1{
   background-color: rgb(53, 53, 53);
 }
 .search-container {
-  display: flex;
+ display: flex;
   flex-direction: row;
-  order: 0;
+  /*order: 0;
   flex-grow: 0;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
   margin: 0;
   align-items: center;
   justify-content: center;
@@ -180,10 +180,7 @@ h1{
   box-sizing: border-box;
 }
 .searchbox{
-  left: 50%;
-  right: 50%;
-  /*left: 50%;
-  right: 50%;*/
+  margin:0;
   width: 400px;
   height: 65px;
   justify-content: center;
