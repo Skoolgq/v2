@@ -3,7 +3,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 @keyframes fade-in-move-up {
     0% {opacity: 0%; top: 110%;}
@@ -14,12 +14,12 @@ body.light {
   background-size: cover;
   /*background-color: #36393e;*/
   color: black;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 body.dark {
   background-color: #36393e;
   color: white;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 #theme-toggle {
   /* styles for the toggle switch */
