@@ -14,20 +14,16 @@ body.light {
   /*background-color: #36393e;*/
   color: black;
 }
-
 body.dark {
   background-color: #36393e;
   color: white;
 }
-
 #theme-toggle {
   /* styles for the toggle switch */
 }
-
 #theme-toggle button {
   /* styles for the toggle buttons */
 }
-
 #theme-toggle button.active {
   /* styles for the active toggle button */
 }
@@ -87,7 +83,6 @@ body.dark-mode .homename{
 .checkbox:checked + .checkbox-label .ball {
   transform: translateX(24px);
 }
-
 .homenamebox{
   background-color: #36393e;
   border-radius:20px;
@@ -146,12 +141,10 @@ a:link{
   display: flex;
   align-items: center;
 }
-
 #thumbs-up, #thumbs-down {
   cursor: pointer;
   margin-right: 10px;
 }
-
 #thumbs-up i, #thumbs-down i {
   font-size: 2em;
 }
@@ -174,21 +167,26 @@ h1{
   background-color: rgb(53, 53, 53);
 }
 .search-container {
-  margin: auto;
-  width: 50%;
-  text-align: center;
-}
-li {
-  list-style-type: none;
-  padding: 0;
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex-grow: 0;
+  flex-wrap: wrap;
   margin: 0;
+  align-items: center;
+  justify-content: center;
 }
-*, *::before, *::after {
+@@ -191,8 +187,8 @@ li {
   box-sizing: border-box;
 }
 .searchbox{
+  left: 50%;
+  right: 50%;
+  /*left: 50%;
+  right: 50%;*/
   width: 400px;
   height: 65px;
+  justify-content: center;
   font-size: 30px;
   background-color: #36393e;
   color: #fff;
