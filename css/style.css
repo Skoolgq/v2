@@ -200,6 +200,9 @@ li {
   border-radius: 15px;
   border-style: hidden;
 }
+input:focus {
+    outline-width: 0;
+}
 .text-center{
   text-align: center;
 }
