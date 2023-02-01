@@ -178,7 +178,6 @@ h1{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  box-shadow: 5px 10px #888888;
 }
 li {
   list-style-type: none;
