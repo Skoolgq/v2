@@ -197,7 +197,8 @@ li {
   font-size: 30px;
   background-color: #36393e;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 15px;
+  border-style: hidden;
 }
 .text-center{
   text-align: center;
