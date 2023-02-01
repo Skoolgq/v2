@@ -45,6 +45,12 @@ body.dark {
   margin: auto;
   text-align: center;
 }
+.homenamebox{
+  background-color: #36393e;
+  border-radius:20px;
+  margin: auto;
+  width: 500px;
+}
 body.dark-mode .homename{
   font-family: 'Lato';
   font-weight: 100;
@@ -86,12 +92,7 @@ body.dark-mode .homename{
 .checkbox:checked + .checkbox-label .ball {
   transform: translateX(24px);
 }
-.homenamebox{
-  background-color: #36393e;
-  border-radius:20px;
-  margin: auto;
-  width: 700px;
-}
+
 .gameinfo{
   color: white;
   text-align: center;
