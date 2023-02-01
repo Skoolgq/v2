@@ -161,16 +161,6 @@ h1{
     animation-duration: 0.8s;
     animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 }
-#mySearch {
-  width: 50%;
-  text-align: center;
-  font-size: 18px;
-  padding: 11px;
-  border: 2px solid #ddd;
-  border-radius: 30px;
-  background-color: rgb(53, 53, 53);
-  box-shadow: 0px 5px 10px 0px #2e2e2e;
-}
 .search-container {
   display: flex;
   flex-direction: row;
@@ -200,6 +190,7 @@ li {
   color: #fff;
   border-radius: 15px;
   border-style: hidden;
+  box-shadow: 0px 5px 10px 0px #2e2e2e;
 }
 input:focus {
     outline-width: 0;
