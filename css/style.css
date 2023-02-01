@@ -117,6 +117,7 @@ body.dark-mode .homename{
   transition: transform .5s;
   justify-content: left;
   float: left;
+  box-shadow: 0px 5px 10px 0px #2e2e2e;
   
 }
 .gamecard:hover{
