@@ -169,6 +169,7 @@ h1{
   border: 2px solid #ddd;
   border-radius: 30px;
   background-color: rgb(53, 53, 53);
+  box-shadow: 5px 10px #888888;
 }
 .search-container {
   display: flex;
