@@ -109,6 +109,7 @@ body.dark-mode .homename{
 }
 .gamecard{
   width: 170px;
+  height: 380px;
   background-color: #2e2e2e;
   padding: 10px; 
   margin: 10px;
