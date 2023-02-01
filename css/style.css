@@ -169,9 +169,9 @@ h1{
 .search-container {
  display: flex;
   flex-direction: row;
-  /*order: 0;
+  order: 0;
   flex-grow: 0;
-  flex-wrap: wrap;*/
+  flex-wrap: wrap;
   margin: 0;
   align-items: center;
   justify-content: center;
