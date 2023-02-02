@@ -1,6 +1,5 @@
 .glow-on-hover {
-    text-align: right;
-    
+    justify-content: right;
     border: none;
     outline: none;
     color: #fff;
