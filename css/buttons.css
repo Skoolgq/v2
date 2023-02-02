@@ -6,7 +6,7 @@
     color: #fff;
     background: #111;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     z-index: 0;
     border-radius: 7px;
     font-size: 20px;
@@ -14,7 +14,7 @@
 
 .glow-on-hover:before {
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: relative;
+    position: absolute;
     top: -2px;
     background-size: 400%;
     z-index: -1;
