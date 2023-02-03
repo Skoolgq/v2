@@ -208,3 +208,26 @@ input:focus {
 .text-center{
   text-align: center;
 }
+.btn {
+  color: #e5dc15;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #e5dc15;
+  border-radius: 0.5rem;
+  position: relative;
+  top: 0;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0 0.6em #c2bb11, 0 0.9em rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+  background: #e5dc15;
+  color: #0e79b2;
+}
+.btn:active {
+  top: 0.6em;
+  box-shadow: 0 0.2em rgba(0, 0, 0, 0.4);
+}
