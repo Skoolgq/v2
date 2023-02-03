@@ -36,9 +36,10 @@ body.dark {
   text-align: center;
 }
 .gamescategory {
-  font-family: 'Nunito Sans';
+  font-family: 'Righteous';
   font-size: 40px;
   text-align: center;
+  color: white;
 }
 #iframe{
   width: 90%;
