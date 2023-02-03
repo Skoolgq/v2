@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap');
 html, body {
   height: 100%;
@@ -46,7 +46,7 @@ body.dark {
   width: 200px;
   height: 55px;
   box-shadow: 0px 5px 10px 0px #2e2e2e;
-  font-family: 'Righteous';
+  font-family: 'Lilita One';
   font-size: 40px;
   text-align: center;
   color: white;
@@ -55,7 +55,7 @@ body.dark {
   width: 90%;
 }
 .homename{
-  font-family: 'Righteous';
+  font-family: 'Lilita One';
   font-weight: 100;
   font-size: 120px;
   margin: auto;
@@ -69,7 +69,7 @@ body.dark {
   box-shadow: 0px 5px 10px 0px #2e2e2e;
 }
 body.dark-mode .homename{
-  font-family: 'Lato';
+  font-family: 'Lilita One';
   font-weight: 100;
   font-size: 120px;
   color: white;
@@ -176,7 +176,7 @@ a:link{
   right: -1300px;
 }
 h1{
-  font-family: 'Righteous';
+  font-family: 'Lilita One';
   animation-name: fade-in-move-up;
   animation-duration: 0.8s;
   animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
