@@ -44,7 +44,7 @@ body.dark {
   width: 90%;
 }
 .homename{
-  font-family: 'Lato';
+  font-family: 'Righteous';
   font-weight: 100;
   font-size: 120px;
   margin: auto;
@@ -165,10 +165,10 @@ a:link{
   right: -1300px;
 }
 h1{
-  font-family:Righteous;
+  font-family: 'Righteous';
   animation-name: fade-in-move-up;
-    animation-duration: 0.8s;
-    animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+  animation-duration: 0.8s;
+  animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 }
 .search-container {
   display: flex;
