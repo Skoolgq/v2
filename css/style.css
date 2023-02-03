@@ -9,6 +9,10 @@ html, body {
     0% {opacity: 0%; top: 110%;}
     100% {opacity: 100%; top: 50%}
 }
+body{
+  justify-content: center;
+  align-items: center;
+}
 body.light {
   background-image: url('/backgrounds/mainbg.gif');
   background-size: cover;
