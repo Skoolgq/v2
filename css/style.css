@@ -219,13 +219,13 @@ input:focus {
   text-align: center;
 }
 .btn {
-  color: #e5dc15;
+  color: black;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  margin: 1rem;
-  padding: 0.5rem;
-  border: 2px solid #e5dc15;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  border: 2px solid #414fe8;
   border-radius: 0.5rem;
   position: relative;
   top: 0;
@@ -235,8 +235,8 @@ input:focus {
 }
 
 .btn:hover {
-  background: #e5dc15;
-  color: #0e79b2;
+  background: #414fe8;
+  color: black;
 }
 .btn:active {
   top: 0.6em;
