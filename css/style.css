@@ -225,11 +225,11 @@ input:focus {
   text-decoration: none;
   margin: 1rem;
   padding: 0.5rem;
-  border: 2px solid #414fe8;
+  border: 2px solid #0f0f0f;
   border-radius: 0.5rem;
   position: relative;
   top: 0;
-  transition: all 100ms ease-in-out;
+  transition: all 300ms ease-in-out;
   box-shadow: 0 0.3em #c2bb11, 0 0.5em #414fe8;
   text-align: center;
 }
@@ -241,4 +241,5 @@ input:focus {
 .btn:active {
   top: 0.6em;
   box-shadow: 0 0.2em #414fe8;
+  background-color: #8a8a8a;
 }
