@@ -229,14 +229,13 @@ input:focus {
   border-radius: 0.5rem;
   position: relative;
   top: 0;
-  transition: all 300ms ease-in-out;
+  transition: all 100ms ease-in-out;
   box-shadow: 0 0.3em #c2bb11, 0 0.5em #414fe8;
-  box-shadow: 0 0.3em #414fe8, 0 0.5em #414fe8;
   text-align: center;
 }
 
 .btn:hover {
-  background: #414fe8;
+  background-color: #2e2e2e;
   color: black;
 }
 .btn:active {
