@@ -231,7 +231,7 @@ input:focus {
   top: 0;
   transition: all 300ms ease-in-out;
   box-shadow: 0 0.5em #2e2e2e;
-  text-align: center;
+  text-align: left;
 }
 
 .btn:hover {
