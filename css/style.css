@@ -230,7 +230,7 @@ input:focus {
   position: relative;
   top: 0;
   text-align: left;
-  box-shadow: 0px 5px 10px 0px #2e2e2e;
+  box-shadow: 0px 5px 90px 0px #2e2e2e;
 }
 
 .btn:hover {
@@ -238,5 +238,5 @@ input:focus {
   color: black;
 }
 .btn:active {
-  background-color: #8a8a8a;
+  background-color: #2e2e2e;
 }
