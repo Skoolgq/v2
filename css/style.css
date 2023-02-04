@@ -223,14 +223,14 @@ input:focus {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  margin: 0.5rem;
-  padding: 0.3rem;
+  margin: 1rem;
+  padding: 0.5rem;
   border: 2px solid #414fe8;
   border-radius: 0.5rem;
   position: relative;
   top: 0;
   transition: all 300ms ease-in-out;
-  box-shadow: 0 0.6em #c2bb11, 0 0.9em rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.3em #c2bb11, 0 0.5em rgba(0, 0, 0, 0.4);
   text-align: center;
 }
 
