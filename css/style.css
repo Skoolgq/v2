@@ -219,42 +219,27 @@ input:focus {
   text-align: center;
 }
 .btn {
-  border: none;
-  outline: none;
-  color: #fff;
-  background: #111;
-  cursor: pointer;
-  border-radius: 7px;
-  font-size: 20px;
+  color: black;
   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
   margin: 1rem;
   padding: 0.5rem;
+  border: 2px solid #414fe8;
+  border-radius: 0.5rem;
   position: relative;
   top: 0;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0 0.3em #c2bb11, 0 0.5em #414fe8;
   box-shadow: 0 0.3em #414fe8, 0 0.5em #414fe8;
   text-align: center;
 }
 
 .btn:hover {
-   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-   position: absolute;
-   top: -2px;
-   background-size: 400%;
-   z-index: -1;
-   filter: blur(5px);
-   width: calc(100% + 4px);
-   height: calc(100% + 4px);
-   animation: glowing 20s linear infinite;
-   opacity: 0;
-   transition: opacity .3s ease-in-out;
-   border-radius: 10px;
+  background: #414fe8;
+  color: black;
 }
 .btn:active {
   top: 0.6em;
   box-shadow: 0 0.2em #414fe8;
-}
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
 }
