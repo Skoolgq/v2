@@ -219,18 +219,17 @@ input:focus {
   text-align: center;
 }
 .btn {
-  border: none;
-  outline: none;
   color: #fff;
   background: #111;
+  cursor: pointer;
+  z-index: 0;
+  border-radius: 7px;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
   margin: 1rem;
   padding: 0.5rem;
   position: relative;
   top: 0;
-  border-radius: 7px;
   font-size: 20px;
   box-shadow: 0 0.3em #414fe8, 0 0.5em #414fe8;
   text-align: center;
@@ -238,6 +237,9 @@ input:focus {
 
 .btn:hover {
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  top: -2px;
+  background-size: 400%;
+  z-index: -1;
   filter: blur(5px);
   width: calc(100% + 4px);
   height: calc(100% + 4px);
