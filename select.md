@@ -1,2 +1,2 @@
 # Choose a game.
-Choose a game using the dropdown below!
+Choose a game on the games page to play it here!
