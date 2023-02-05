@@ -62,7 +62,8 @@ body.dark {
   text-align: center;
 }
 .homenamebox{
-  background-color: #36393e;
+  color: #fff;
+  opacity: 0.85;
   border-radius:20px;
   margin: auto;
   width: 325px;
