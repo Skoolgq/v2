@@ -236,3 +236,26 @@ input:focus {
 }
 
 
+.recent {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #0f0f0f;
+  border-radius: 0.5rem;
+  position: relative;
+  top: 0;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px #2e2e2e;
+}
+
+.recent:hover {
+  background-color: #2e2e2e;
+  color: black;
+}
+.recent:active {
+  background-color: #2e2e2e;
+}
+
