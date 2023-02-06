@@ -237,6 +237,7 @@ input:focus {
 
 
 .recent {
+  text-align: center;
   background: #1e2124;
   opacity: 0.85;
   font-family: "Montserrat", sans-serif;
@@ -245,7 +246,7 @@ input:focus {
   margin: 1rem;
   padding: 0.5rem;
   border: 1px solid #0f0f0f;
-  color: black;
+  color: white;
   border-radius: 0.5rem;
   position: relative;
   top: 0;
@@ -255,6 +256,8 @@ input:focus {
 
 .recent:hover {
   color: black;
+  cursor: pointer;
+  background-color: #2e2e2e;
 }
 .recent:active {
   background-color: #2e2e2e;
