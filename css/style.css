@@ -240,9 +240,10 @@ input:focus {
 .icon-container{
     display: row;
     justify-content: space-between;
-    height: 64px;
     align-items: center;
     flex-direction: column;
+    margin: auto;
+    width:300px;
 }
 
 
