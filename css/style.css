@@ -260,5 +260,7 @@ input:focus {
 }
 .recent:active {
   background-color: #2e2e2e;
+  transform: translateY(2px);
+
 }
 
