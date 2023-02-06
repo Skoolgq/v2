@@ -239,7 +239,7 @@ input:focus {
 
 .icon-container{
     display: flex;
-    justify-content: space-between;
-    height: 64px;
+    /*justify-content: space-between;
+    height: 64px;*/
     align-items: center;
 }
