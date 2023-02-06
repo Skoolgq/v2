@@ -34,7 +34,7 @@ body.dark {
 #theme-toggle button.active {
   /* styles for the active toggle button */
 }
-.homedesc {
+p {
   font-family: 'Nunito Sans';
   font-size: 20px;
   text-align: center;
