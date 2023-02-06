@@ -245,9 +245,8 @@ input:focus {
   text-decoration: none;
   margin: 1rem;
   padding: 0.5rem;
-  border: 1px solid #0f0f0f;
+  border: none;
   color: white;
-  border-radius: 0.5rem;
   position: relative;
   top: 0;
   text-align: center;
