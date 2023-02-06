@@ -238,7 +238,7 @@ input:focus {
 /*iconrow*/
 
 .icon-container{
-    display: flex;
+    display: row;
     justify-content: space-between;
     height: 64px;
     align-items: center;
