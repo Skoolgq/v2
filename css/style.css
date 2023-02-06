@@ -255,7 +255,7 @@ input:focus {
 }
 
 .recent:hover {
-  color: black;
+  color: white;
   cursor: pointer;
   background-color: #2e2e2e;
 }
