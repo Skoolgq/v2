@@ -235,15 +235,4 @@ input:focus {
   background-color: #2e2e2e;
 }
 
-/*iconrow*/
-
-.icon-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin: auto;
-    width:300px;
-}
-
 
