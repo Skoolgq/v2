@@ -238,10 +238,10 @@ input:focus {
 /*iconrow*/
 
 .icon-container{
-    display: row;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
     width:300px;
 }
