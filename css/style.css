@@ -234,3 +234,12 @@ input:focus {
 .btn:active {
   background-color: #2e2e2e;
 }
+
+/*iconrow*/
+
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
