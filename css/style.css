@@ -62,19 +62,12 @@ body.dark {
   text-align: center;
 }
 .homenamebox{
-  background-color: #36393e;
-  opacity: 0.45;
+  background: #1e2124;
+  opacity: 0.85;
   border-radius:20px;
   margin: auto;
   width: 325px;
   box-shadow: 0px 5px 10px 0px #2e2e2e;
-}
-body.dark-mode .homename{
-  font-family: 'Lilita One';
-  font-weight: 100;
-  font-size: 120px;
-  color: white;
-  text-align: center;
 }
 #iframe{
   width: 90%;
