@@ -1,4 +1,4 @@
-const changeFaviconButton = document.getElementById("changeFaviconButton");
+const changeFaviconButton = document.getElementById("cloakgoogle");
 
   changeFaviconButton.addEventListener("click", function() {
     const link = document.querySelector("link[rel*='icon']") || document.createElement('link');
