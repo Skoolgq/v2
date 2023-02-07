@@ -277,10 +277,8 @@ input:focus {
   text-decoration: none;
   margin: 1rem;
   paddin-top: 1.5px;
-  padding-left: 1.5px;
-  padding-right: 1.5px;
-  width: 40px;
-  height: 40px;
+  padding-left: 3.5px;
+  padding-right: 3.5px;
   border: 2px solid #0f0f0f;
   border-radius: 0.5rem;
 
