@@ -277,6 +277,8 @@ input:focus {
   text-decoration: none;
   margin: 1rem;
   padding: 0.5rem;
+  width: 40px;
+  height: 40px;
   border: 2px solid #0f0f0f;
   border-radius: 0.5rem;
 
@@ -293,6 +295,6 @@ input:focus {
 
 #flbutton {
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   right: 10px;
 }
