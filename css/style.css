@@ -276,7 +276,9 @@ input:focus {
   text-transform: uppercase;
   text-decoration: none;
   margin: 1rem;
-  padding: 2.5px;
+  paddin-top: 1.5px;
+  padding-left: 1.5px;
+  padding-right: 1.5px;
   width: 40px;
   height: 40px;
   border: 2px solid #0f0f0f;
