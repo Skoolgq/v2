@@ -275,10 +275,7 @@ input:focus {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  paddin-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 20px;
   border: 2px solid #0f0f0f;
   border-radius: 0.5rem;
   text-align: center;
