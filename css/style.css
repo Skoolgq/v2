@@ -276,6 +276,8 @@ input:focus {
   text-transform: uppercase;
   text-decoration: none;
   padding: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   border: 2px solid #0f0f0f;
   border-radius: 0.5rem;
   text-align: center;
