@@ -227,8 +227,6 @@ input:focus {
   border: 2px solid #0f0f0f;
   border-radius: 0.5rem;
   position: relative;
-  top: 0;
-  text-align: left;
   box-shadow: 0px 5px 10px 0px #2e2e2e;
 }
 
