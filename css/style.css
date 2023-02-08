@@ -76,6 +76,7 @@ body.dark {
 }
 .homedesc {
   font-family: 'Nunito';
+  color: white;
   text-align: center;
   font-size: 20px;
 }
