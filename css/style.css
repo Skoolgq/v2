@@ -75,10 +75,18 @@ body.dark {
   box-shadow: 0px 5px 10px 0px #2e2e2e;
 }
 .homedesc {
-  font-family: 'Nunito';
+  font-family: 'Lilita One';
   color: white;
   text-align: center;
   font-size: 20px;
+}
+.homedescbox {
+  background: #1e2124;
+  opacity: 0.85;
+  border-radius:20px;
+  margin: auto;
+  width: 325px;
+  box-shadow: 0px 5px 10px 0px #2e2e2e;
 }
 #iframe{
   width: 90%;
