@@ -14,6 +14,32 @@
      crossorigin="anonymous"></script>
 </head>
 <body>
+  <style>
+    /* ===== Scrollbar CSS ===== */
+    body {
+    overflow: overlay;
+}
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #1f1f1f;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    border: 3px none #ffffff;
+  }
+  </style>
   <nav class="navbar">
         <div class="navbar-container container">
             <input type="checkbox" name="" id="">
