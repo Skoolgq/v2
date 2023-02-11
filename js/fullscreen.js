@@ -1,3 +1,8 @@
+document.addEventListener("keydown", function(event) {
+  if (event.code === "KeyF") {
+    fullscreen();
+  }
+});
 function fullscreen() {
   var iframe = document.getElementById("game-frame");
   if (iframe.requestFullscreen) {
