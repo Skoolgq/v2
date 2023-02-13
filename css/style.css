@@ -313,13 +313,13 @@ input:focus {
   left: 6px;
 }
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
+  /* Firefox 
   * {
     scrollbar-width: auto;
     scrollbar-color: #1f1f1f #36393e;
   }
 
-  /* Chrome, Edge, and Safari */
+  /* Chrome, Edge, and Safari 
   *::-webkit-scrollbar {
     width: 13px;
   }
@@ -333,3 +333,4 @@ input:focus {
     border-radius: 10px;
     border: 3px none #ffffff;
   }
+*/
