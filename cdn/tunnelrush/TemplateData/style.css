@@ -37,7 +37,7 @@
     }
 
     .webgl-content .logo {
-        background: url('logo_512_light.png') no-repeat center / contain;
+        background: url('/img/favicon.png') no-repeat center / contain;
         width: 500px;
         height: 155px;
     }
