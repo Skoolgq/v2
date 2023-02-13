@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="description"
+    content="Tunnel Rush is a beautiful and crazy game that will test your speed and reaction. Use the left and right arrows to bypass moving obstacles in the tunnel. Every time you exceed your record a notice will appear and you will understand that you have become a little cooler.">
+  <title>Tunnel Rush Unblocked</title>
+  <style>
+    body {
+      padding: 0px;
+      margin: 0px;
+    }
+  </style>
+</head>
+<body>
+  <div id= "gameContainer" style="position: absolute; width: 100%; height: 100%;"></div>
+  <script src="js/UnityProgress.js"></script>
+  <script src="js/unityloader49.js"></script>
+  <script type="text/javascript">
+      var gameInstance;
+      gameInstance = UnityLoader.instantiate("gameContainer", "tunnel-rush-v9.json", {
+        onProgress: UnityProgress,
+        Module: {
+          onRuntimeInitialized: function() {
+            UnityProgress(gameInstance, "complete")
+          }
+        }
+      });
+    </script>
+</body>
+</html>
