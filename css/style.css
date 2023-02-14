@@ -65,7 +65,7 @@ body.dark {
   margin: auto;
   text-align: center;
   color: rgb(10, 1, 13);
-  text-shadow: 8px 8px #472790c0;
+  text-shadow: 5px 5px #e810af;
 }
 .homenamebox{
   background: #1e2124;
@@ -192,9 +192,9 @@ a:link{
 }
 h1{
   font-family: 'Lilita One';
-  animation-name: fade-in-move-up;
+ /*animation-name: fade-in-move-up;
   animation-duration: 0.8s;
-  animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+  animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);*/
 }
 .search-container {
   display: flex;
