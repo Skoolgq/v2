@@ -1,0 +1,16 @@
+.Loading {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position:absolute;
+    background-color: black;
+    opacity: .7; 
+    color: white;    
+}
+
+.Loading-inner {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;    
+}
