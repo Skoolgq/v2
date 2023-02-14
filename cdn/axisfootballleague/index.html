@@ -1,0 +1,12 @@
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("game.swf");
+        player.style.width = "100%"; player.style.height = "100%";
+    });
+</script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
