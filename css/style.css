@@ -192,9 +192,6 @@ a:link{
 }
 h1{
   font-family: 'Lilita One';
- /*animation-name: fade-in-move-up;
-  animation-duration: 0.8s;
-  animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);*/
 }
 .search-container {
   display: flex;
