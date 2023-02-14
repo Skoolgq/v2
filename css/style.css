@@ -59,13 +59,22 @@ body.dark {
 #iframe{
   width: 90%;
 }
-.homename{
+.homename.light{
   font-family: 'Lilita One';
   font-size: 125px;
   margin: auto;
   text-align: center;
-  color: rgb(0, 0, 5);
+  color: rgb(0, 0, 0);
   text-shadow: 6px 6px #e810af;
+  margin-right: 12px;
+}
+.homename.dark{
+  font-family: 'Lilita One';
+  font-size: 125px;
+  margin: auto;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 6px 6px #ffffff;
   margin-right: 12px;
 }
 .homenamebox{
