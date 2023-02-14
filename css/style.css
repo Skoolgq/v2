@@ -61,10 +61,11 @@ body.dark {
 }
 .homename{
   font-family: 'Lilita One';
-  font-weight: 100;
   font-size: 120px;
   margin: auto;
   text-align: center;
+  color: rgb(10, 1, 13);
+  text-shadow: 8px 8px #472790c0;
 }
 .homenamebox{
   background: #1e2124;
