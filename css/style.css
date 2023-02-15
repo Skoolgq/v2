@@ -59,16 +59,14 @@ body.dark {
 #iframe{
   width: 90%;
 }
-/*homename.light {
-  text-shadow: 6px 6px #d93beb;
+homename.light {
+  color: rgb(16, 2, 18);
 }
 homename.dark {
   color: rgb(255, 255, 255);
-  text-shadow: 6px 6px #000000;
-}*/
+}
 .homename {
   font-family: 'Lilita One';
-  color: rgb(255, 255, 255);
   text-shadow: 6px 6px #d93beb;
   font-size: 125px;
   margin: auto;
