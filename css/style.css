@@ -59,7 +59,7 @@ body.dark {
 #iframe{
   width: 90%;
 }
-.homename.light{
+homename.light{
   font-family: 'Lilita One';
   font-size: 125px;
   margin: auto;
@@ -68,7 +68,7 @@ body.dark {
   text-shadow: 60px 60px #e810af;
   margin-right: 12px;
 }
-.homename.dark{
+homename.dark{
   font-family: 'Lilita One';
   font-size: 125px;
   margin: auto;
@@ -79,6 +79,7 @@ body.dark {
 }
 h1{
   font-family: 'Lilita One';
+  z-index: 6;
   font-size: 125px;
   margin: auto;
   text-align: center;
