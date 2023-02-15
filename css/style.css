@@ -77,6 +77,12 @@ body.dark {
   text-shadow: 6px 6px #ffffff;
   margin-right: 12px;
 }
+h1{
+  font-family: 'Lilita One';
+  font-size: 125px;
+  margin: auto;
+  text-align: center;
+}
 .homenamebox{
   background: #1e2124;
   height: 150px;
@@ -201,9 +207,6 @@ a:link{
 #fullscreen-button{
   bottom: -430px;
   right: -1300px;
-}
-h1{
-  font-family: 'Lilita One';
 }
 .search-container {
   display: flex;
