@@ -60,20 +60,16 @@ body.dark {
   width: 90%;
 }
 homename.light {
-  font-family: 'Lilita One';
-  font-size: 125px;
-  margin: auto;
-  text-align: center;
   color: rgb(0, 0, 0);
-  text-shadow: 6px 6px #e810af;
-  margin-right: 12px;
 }
 homename.dark {
+  color: rgb(255, 255, 255);
+}
+.homename {
   font-family: 'Lilita One';
   font-size: 125px;
   margin: auto;
   text-align: center;
-  color: rgb(0, 0, 0);
   text-shadow: 6px 6px #e810af;
   margin-right: 12px;
 }
