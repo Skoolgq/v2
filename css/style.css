@@ -61,16 +61,17 @@ body.dark {
 }
 homename.light {
   color: rgb(0, 0, 0);
+  text-shadow: 6px 6px #d93beb;
 }
 homename.dark {
   color: rgb(255, 255, 255);
+  text-shadow: 6px 6px #ffffff;
 }
 .homename {
   font-family: 'Lilita One';
   font-size: 125px;
   margin: auto;
   text-align: center;
-  text-shadow: 6px 6px #e810af;
   margin-right: 12px;
 }
 h1{
