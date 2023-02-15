@@ -79,6 +79,7 @@ body.dark {
 }
 .homenamebox{
   background: #1e2124;
+  height: 150px;
   opacity: 0.85;
   border-radius:20px;
   margin: auto;
