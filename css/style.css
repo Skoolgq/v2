@@ -67,7 +67,7 @@ homename.dark {
 }
 .homename {
   font-family: 'Lilita One';
-  text-shadow: 6px 6px #d93beb, 0 0 16px #d93beb;
+  text-shadow: 6px 6px #d93beb, 6px 6px 16px #d93beb;
   font-size: 125px;
   margin: auto;
   text-align: center;
