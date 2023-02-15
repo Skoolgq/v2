@@ -65,7 +65,7 @@ body.dark {
   margin: auto;
   text-align: center;
   color: rgb(0, 0, 0);
-  text-shadow: 6px 6px #e810af;
+  text-shadow: 1vw 1vw #e810af;
   margin-right: 12px;
 }
 .homename.dark{
@@ -74,7 +74,7 @@ body.dark {
   margin: auto;
   text-align: center;
   color: rgb(0, 0, 0);
-  text-shadow: 6px 6px #ffffff;
+  text-shadow: 1vw 1vw #ffffff;
   margin-right: 12px;
 }
 .homenamebox{
