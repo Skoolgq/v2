@@ -61,7 +61,7 @@ body.dark {
 }
 .homename.light{
   font-family: 'Lilita One';
-  font-size: 125px;
+  font-size: 12.5vh;
   margin: auto;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -70,7 +70,7 @@ body.dark {
 }
 .homename.dark{
   font-family: 'Lilita One';
-  font-size: 125px;
+  font-size: 12.5vh;
   margin: auto;
   text-align: center;
   color: rgb(0, 0, 0);
