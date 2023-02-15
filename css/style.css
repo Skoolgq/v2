@@ -84,7 +84,7 @@ h1{
   margin: auto;
   text-align: center;
 }
-h1.light{
+h1.light {
   font-family: 'Lilita One';
   font-size: 125px;
   margin: auto;
@@ -93,7 +93,7 @@ h1.light{
   text-shadow: 6px 6px #e810af;
   margin-right: 12px;
 }
-h1.dark{
+h1.dark {
   font-family: 'Lilita One';
   font-size: 125px;
   margin: auto;
@@ -104,7 +104,6 @@ h1.dark{
 }
 .homenamebox{
   background: #1e2124;
-  height: 150px;
   opacity: 0.85;
   border-radius:20px;
   margin: auto;
