@@ -65,7 +65,7 @@ homename.light {
 }
 homename.dark {
   color: rgb(255, 255, 255);
-  text-shadow: 6px 6px #ffffff;
+  text-shadow: 6px 6px #000000;
 }
 .homename {
   font-family: 'Lilita One';
