@@ -67,7 +67,7 @@
     color: #f740dc;
 }
 
-@media (max-width: 768px){
+@media (max-width: 710px){
     .navbar{
         opacity: 0.95;
     }
