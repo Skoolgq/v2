@@ -193,7 +193,7 @@ function openPopup(assignment) {
     <p style="font-size: 12px" id="loading_text"></p>
   </div>
   <hr>
-  <p style="font-size: 12px">Made by: <a target="_blank" href="https://discord.gg/skool">fowntain#4848</a> on Github | Website: <a target="_blank" href="https://skool.world">Skool</a></p>
+  <p style="font-size: 12px">Credits to: <a target="_blank" href="https://github.com/ading2210">ading2210</a> on Github | Host: <a target="_blank" href="https://skool.world">Skool</a></p>
   <p style="font-size: 12px">Licenced under the <a target="_blank" href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">GNU GPL v3</a>. Do not reupload or redistribute without abiding by those terms.</p>`;
   popup = window.open("about:blank", "", "width=600, height=400");
   popup.document.write(base_html);
