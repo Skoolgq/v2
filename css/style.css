@@ -63,8 +63,7 @@ homename.light {
   color: rgb(16, 2, 18);
 }
 homename.dark {
-  /*color: rgb(255, 255, 255);*/
-  color: rgb(16, 2, 18);
+  color: rgb(255, 255, 255);
 }
 .homename {
   font-family: 'Lilita One';
