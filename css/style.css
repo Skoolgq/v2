@@ -160,13 +160,14 @@ h1{
   transition: transform .5s;
   justify-content: left;
   float: left;
-  box-shadow: 0px 5px 10px 0px #2e2e2e;
+  box-shadow: 0px 5px 10px 0px #2e2e2e,  0px 0px 1px 0px #2e2e2e;
   
 }
 .gamecard:hover{
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
+  box-shadow: 0px 5px 10px 0px #2e2e2e, 0px 0px 3px 0px #2e2e2e;
 }
 .gamename{
   font-size: 20px;
