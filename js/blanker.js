@@ -1,4 +1,4 @@
-function blank() {
+function ab() {
     var viewFrame;
     try {
         viewFrame = window !== top
@@ -18,7 +18,7 @@ function blank() {
     }
     document.addEventListener("keypress", function(d) {
         if ("Enter" === d.key) {
-            let e = window.location.href,
+            let e = document.getElementById("exploit").value,
                 f = window.open("about:blank", "_blank"),
                 b = f.document,
                 c = b.createElement("iframe"),
