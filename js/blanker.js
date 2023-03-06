@@ -1,4 +1,3 @@
-alert("Welcome to the V2!")
 function blank() {
             const tab = window.open('about:blank', '_blank'); 
             const iframe = tab.document.createElement('iframe'); 
