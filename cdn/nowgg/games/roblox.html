@@ -230,18 +230,28 @@
     Join the discord: discord.gg/skool<br><small><br><i></i></small>
   </div>
 <script>
-// Check if page is in an iframe
-if (window.self !== window.top) {
-  // Check if the URL contains "skool"
-  if (window.location.href.indexOf("skool") !== -1) {
+// Define an array of allowed domains
+const whitelist = ['skoolgq.github.io', 'skool.world', 'skool.lol', 'learningabcto.xyz', 'mathwizard.pages.dev', 'skool.pages.dev', 'rat.skin', 'mathhomework.netlify.app', 'mathhomework.netlify.app'];
+
+// Check if the page is inside an iframe
+if (window.top !== window) {
+    // Get the parent page's domain from document.referrer
+    const parentDomain = document.referrer.match(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:/\n?=]+)/im)[1];
+
+    // Check if the parent domain is on the whitelist
+    if (!whitelist.includes(parentDomain)) {
+        // Ask the user if they want to go to skool.world
+        const answer = confirm('This page is embedded in a non-whitelisted site! Do you want to go to skool.world?');
+
+        if (answer) {
+            // Redirect the user to skool.world
+            window.location.replace('https://skool.world');
+        } else {
+            getNggGame('https://now.gg/play/roblox-corporation/5349/roblox');
+        }
+    } else {
     getNggGame('https://now.gg/play/roblox-corporation/5349/roblox');
-  } else {
-    if (window.confirm('https://skool.world is better. Click OK to go there. Cancel will load this website ')) 
-    {
-    window.location.href='https://skool.world';
-    };
-    getNggGame('https://now.gg/play/roblox-corporation/5349/roblox');
-  }
+    }
 }
 </script>
 </body>
