@@ -230,7 +230,19 @@
     Join the discord: discord.gg/skool<br><small><br><i></i></small>
   </div>
 <script>
-getNggGame('https://now.gg/play/roblox-corporation/5349/roblox');
+// Check if page is in an iframe
+if (window.self !== window.top) {
+  // Check if the URL contains "skool"
+  if (window.location.href.indexOf("skool") !== -1) {
+    getNggGame('https://now.gg/play/roblox-corporation/5349/roblox');
+  } else {
+    if (window.confirm('https://skool.world is better. Click OK to go there. Cancel will load this website ')) 
+    {
+    window.location.href='https://skool.world';
+    };
+    getNggGame('https://now.gg/play/roblox-corporation/5349/roblox');
+  }
+}
 </script>
 </body>
 <!-- Mirrored from nowgg.me/games/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Feb 2023 01:12:47 GMT -->
