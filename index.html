@@ -81,7 +81,7 @@
   <h1 class="homename">Skool</h1>
   <div class="text-center">
   <btn class="recent" onclick="location.href='/games/play'">last played</btn>
-  <btn class="recent" onclick="window.open('about:blank').document.write(`<head><title>404</title></head><body><style>body { margin:0; }</style><iframe src='https://rat.skin'></iframe></body>">last played</btn>
+  <btn class="recent" onclick="aboutblankopen()">about:blank</btn>
   </div>
   <br>
   <div class="homedescbox">
@@ -92,6 +92,11 @@
   <footer>
   <p class="homedesc">discord.gg/skool</p>
   </footer>
+  <script>
+    function aboutblankopen() {
+      window.open('about:blank').document.write(`<head><title>404</title></head><body><style>body {margin: 0;}</style><iframe style="border: none;" src="https://rat.skin" width="100%" height="100%"></body>`);
+    };
+  </script>
   <!-- main-page ad -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9661054437111080"
      crossorigin="anonymous"></script>
