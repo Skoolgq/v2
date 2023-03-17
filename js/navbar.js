@@ -46,9 +46,9 @@ if (!localStorage.getItem('cloaker')) localStorage.setItem('cloaker', JSON.strin
 else {
   function favicon(src) {
     let link = document.createElement('link')
-    let oldLink = document.getElementById('dynamic-favicon');
+    let oldLink = document.getElementById('dynamic-fav');
     
-    link.id = 'dynamic-favicon';
+    link.id = 'dynamic-fav';
     link.rel = 'shortcut icon';
     link.href = src;
     if (oldLink) document.head.removeChild(oldLink);
