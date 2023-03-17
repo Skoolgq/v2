@@ -52,9 +52,16 @@
 <p class="gamescategory" style="width: 300px;height: 55px;font-size: 45px;">Cloakers</p>
 <br>
 <br><div class="text-center">
-  <btn class="recent" onclick="chrome();">Cloak Google</btn>
+  <btn class="recent" onclick="google();">Cloak Google</btn>
 <br>
   <br><br><btn class="recent" onclick="classroom()">Cloak Google Classroom</btn>
+  <br>
+  <br><br><btn class="recent" onclick="drive()">Cloak Google Drive</btn>
+  <script>
+    const drive = () => localStorage.cloaker = JSON.stringify({"title":"My Drive - Google Drive","icon":"https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"});
+    const classroom = () => localStorage.cloaker = JSON.stringify({"title":"Classes","icon":"https://ssl.gstatic.com/classroom/favicon.png"});
+    const google = () => localStorage.cloaker = JSON.stringify({"title":"Google","icon":"https://www.google.com/favicon.ico"});
+  </script>
   </div>
   <!--END EDITABLE HTML-->
   <script src="/js/theme.js"></script>
@@ -70,5 +77,4 @@
 <div data-netlify-deploy-id="6413c5cd85115d0008768a6e" data-netlify-site-id="eefe7110-5932-4290-bcbf-de21e648ed61" data-vcs="github" style="background: transparent; bottom: 0px; color-scheme: normal; margin: 0px; padding: 0px; position: fixed; z-index: 2147483647; left: calc(50% - 390px);">
   
   <script async="" src="https://netlify-cdp-loader.netlify.app/netlify.js"></script>
-<iframe allow="microphone; camera; clipboard-write; display-capture" src="https://app.netlify.com/cdp/?deployID=6413c5cd85115d0008768a6e&amp;siteID=eefe7110-5932-4290-bcbf-de21e648ed61&amp;vcs=github" title="Netlify Drawer" style="display: block; border: 0px; height: 48px; width: 780px;"></iframe></div>
 <widgetbot-crate src="https://widgetbot.io" docs="docs.widgetbot.io"><crate><div></div></crate></widgetbot-crate></body>
