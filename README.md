@@ -18,7 +18,9 @@ Fork this repo to deploy your own unblocked version.
 [in accordance with the license we are using, you may not use any of our code in a closed-source manner]
 
 ## Self-Hosting
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Skoolgq/skoolv2) [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Skoolgq/skoolv2)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Skoolgq/skoolv2) [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Skoolgq/skoolv2) [![Deploy To Replit](https://camo.githubusercontent.com/de8d18f58a5c013d803964424dc10e4276d57c2d9f7d2bd5ce2ffa127d6e832c/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f7265706c69742e737667)](https://replit.com/github/Skoolgq/skoolv2) [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Dxtugg)
+
+Note: This website requires you to host at the root of the domain or on a subdomain.
 #### GitHub Pages
 1. Make sure you have a GitHub account (duh)
 2. Fork this repository by clicking the big gray "Fork" button in the top right of your screen
