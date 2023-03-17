@@ -5,14 +5,15 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <script src="https://kit.fontawesome.com/204c1cf7c6.js" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700" rel="stylesheet">
   <script src="/js/gsap/gsap.min.js"></script>
   <script src="https://unpkg.com/@barba/core"></script>
 </head>
-<body>
+
+<body class="light">
   <nav class="navbar">
         <div class="navbar-container container">
             <input type="checkbox" name="" id="">
@@ -30,10 +31,10 @@
                 <li><a href="/hacks">Hacks</a></li>
                 <li><div id="theme-toggle">
     <button id="light-mode" class="active" onclick="switchTheme('light')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
-      <i class="fas fa-sun fa-2xl"></i><br>
+      <i class="fas fa-sun fa-2xl" aria-hidden="true"></i><br>
     </button>
     <button id="dark-mode" onclick="switchTheme('dark')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
-      <i class="fas fa-moon fa-2xl"></i><br>
+      <i class="fas fa-moon fa-2xl" aria-hidden="true"></i><br>
     </button>
   </div></li>
             </ul>
@@ -41,16 +42,39 @@
         </div>
     </nav>
   <script src="/js/navbar.js"></script>
-  <br>
-  <br>
+  
+  
   <br>
   <br>
   <br>
   <br>
 <!--start editable-->
-  <button id="cloakgoogle">Cloak Google Chrone</button>
-  <button id="cloakclassroom">Cloak Google Classroom</button>
-  <button id="cloakcanvas">Cloak Canvas</button>
-  <script src="/js/cloaks/google.js"></script>
-  <script src="/js/cloaks/gclassroom.js"></script>
-  <script src="/js/cloaks/canvas.js"></script>
+<p class="gamescategory" style="width: 300px;height: 55px;font-size: 45px;">Cloakers</p>
+<br>
+<br><div class="text-center">
+  <btn class="recent" onclick="google();cloak();">Cloak Google</btn>
+<br>
+  <br><br><btn class="recent" onclick="classroom();cloak();">Cloak Google Classroom</btn>
+  <br>
+  <br><br><btn class="recent" onclick="drive();cloak();">Cloak Google Drive</btn>
+  <script>
+    const drive = () => localStorage.cloaker = JSON.stringify({"title":"My Drive - Google Drive","icon":"https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"});
+    const classroom = () => localStorage.cloaker = JSON.stringify({"title":"Classes","icon":"https://ssl.gstatic.com/classroom/favicon.png"});
+    const google = () => localStorage.cloaker = JSON.stringify({"title":"Google","icon":"https://www.google.com/favicon.ico"});
+  </script>
+  </div>
+  <!--END EDITABLE HTML-->
+  <script src="/js/theme.js"></script>
+  <script src="/js/blanker.js"></script>
+  <!--<script src="/js/rainbowtext.js"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async="" defer="">
+    new Crate({
+        server: '950407933408198717', // Skool Community
+        channel: '1044626679638806631', // #uv-chat
+        notifications: false
+    })
+</script>
+<div data-netlify-deploy-id="6413c5cd85115d0008768a6e" data-netlify-site-id="eefe7110-5932-4290-bcbf-de21e648ed61" data-vcs="github" style="background: transparent; bottom: 0px; color-scheme: normal; margin: 0px; padding: 0px; position: fixed; z-index: 2147483647; left: calc(50% - 390px);">
+  
+  <script async="" src="https://netlify-cdp-loader.netlify.app/netlify.js"></script>
+<widgetbot-crate src="https://widgetbot.io" docs="docs.widgetbot.io"><crate><div></div></crate></widgetbot-crate></body>
