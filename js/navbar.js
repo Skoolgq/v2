@@ -45,9 +45,15 @@ window.addEventListener('mouseup', (event) => {
 if (!localStorage.getItem('cloaker')) localStorage.setItem('cloaker', JSON.stringify({}));
 else {
   function favicon(src) {
-    if (document.getElementById('dynamic-fav')) document.getElementById('dynamic-fav').remove();
-    document.head.innerHTML += `<link id="dynamic-fav" rel="shortcut icon" href=${src}>`;
-  };
+    let link = document.createElement('link')
+    let oldLink = document.getElementById('dynamic-favicon');
+    
+    link.id = 'dynamic-favicon';
+    link.rel = 'shortcut icon';
+    link.href = src;
+    if (oldLink) document.head.removeChild(oldLink);
+    document.head.appendChild(link);
+  }
   
   let cloaker = JSON.parse(localStorage.getItem('cloaker'));
   if (cloaker.title) document.title = cloaker.title;
