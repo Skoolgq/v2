@@ -52,11 +52,11 @@
 <p class="gamescategory" style="width: 300px;height: 55px;font-size: 45px;">Cloakers</p>
 <br>
 <br><div class="text-center">
-  <btn class="recent" onclick="google();">Cloak Google</btn>
+  <btn class="recent" onclick="google();cloak();">Cloak Google</btn>
 <br>
-  <br><br><btn class="recent" onclick="classroom()">Cloak Google Classroom</btn>
+  <br><br><btn class="recent" onclick="classroom();cloak();">Cloak Google Classroom</btn>
   <br>
-  <br><br><btn class="recent" onclick="drive()">Cloak Google Drive</btn>
+  <br><br><btn class="recent" onclick="drive();cloak();">Cloak Google Drive</btn>
   <script>
     const drive = () => localStorage.cloaker = JSON.stringify({"title":"My Drive - Google Drive","icon":"https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"});
     const classroom = () => localStorage.cloaker = JSON.stringify({"title":"Classes","icon":"https://ssl.gstatic.com/classroom/favicon.png"});
