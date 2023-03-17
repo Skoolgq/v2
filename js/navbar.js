@@ -42,6 +42,18 @@ window.addEventListener('mouseup', (event) => {
   }
 })
 
+if (!localStorage.getItem('cloaker')) localStorage.setItem('cloaker', JSON.stringify({}));
+else {
+  function favicon(src) {
+    if (document.getElementById('dynamic-fav')) document.getElementById('dynamic-fav').remove();
+    document.head.appendChild(`<link id="dynamic-fav" rel="shortcut icon" href=${src}>`)
+  };
+  
+  let cloaker = JSON.parse(localStorage.getItem('cloaker'));
+  if (cloaker.title) document.title = cloaker.title;
+  if (cloaker.icon) favicon(cloaker.icon);
+};
+
 // Open links in mobiles
 function handleSmallScreens() {
   document.querySelector('.navbar-toggler')
@@ -57,15 +69,3 @@ function handleSmallScreens() {
 }
 
 handleSmallScreens()
-
-if (!localStorage.getItem('cloaker')) localStorage.setItem('cloaker', JSON.stringify({}));
-else {
-  function favicon(src) {
-    if (document.getElementById('dynamic-fav')) document.getElementById('dynamic-fav').remove();
-    document.head.appendChild(`<link id="dynamic-fav" rel="shortcut icon" href=${src}>`)
-  };
-  
-  let cloaker = JSON.parse(localStorage.getItem('cloaker'));
-  if (cloaker.title) document.title = cloaker.title;
-  if (cloaker.icon) favicon(cloaker.icon);
-};
