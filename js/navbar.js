@@ -62,7 +62,7 @@ if (!localStorage.getItem('cloaker')) localStorage.setItem('cloaker', JSON.strin
 else {
   function favicon(src) {
     if (document.getElementById('dynamic-fav')) document.getElementById('dynamic-fav').remove();
-    document.head.appendChild(`<link id="dynamic-fav" rel="shortcut icon" href=${src}>`)
+    document.head.innerHTML += `<link id="dynamic-fav" rel="shortcut icon" href=${src}>`;
   };
   
   let cloaker = JSON.parse(localStorage.getItem('cloaker'));
