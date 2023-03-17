@@ -53,13 +53,15 @@ function cloak() {
       link.href = src;
       if (oldLink) document.head.removeChild(oldLink);
       document.head.appendChild(link);
-    }
+    };
   
     let cloaker = JSON.parse(localStorage.getItem('cloaker'));
     if (cloaker.title) document.title = cloaker.title;
     if (cloaker.icon) favicon(cloaker.icon);
   } else localStorage.setItem('cloaker', JSON.stringify({}));
 };
+
+cloak();
 
 // Open links in mobiles
 function handleSmallScreens() {
