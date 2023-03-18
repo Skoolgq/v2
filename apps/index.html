@@ -5,150 +5,161 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <script src="https://kit.fontawesome.com/204c1cf7c6.js" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/@barba/core"></script>
   <script src="/js/gsap/gsap.min.js"></script>
   <title>Skool | Apps</title>
   <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> <!-- death only uses jquery -->
 </head>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-455KY5SYFH"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   gtag('js', new Date());
 
   gtag('config', 'G-455KY5SYFH');
 </script>
+
 <body>
   <nav class="navbar">
-        <div class="navbar-container container">
-            <input type="checkbox" name="" id="">
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </div>
-            <ul class="menu-items">
-                <!--<li><a href="https://dsc.gg/skoolworld" target="_blank"><i class="fa-brands fa-discord fa-lg"></i></a></li>-->
-                <li><a href="/">Home</a></li>
-                <li><a href="/games">Games</a></li>
-                <li><a href="/apps">Apps</a></li>
-                <li><a href="/links/unblock">Unblocker</a></li>
-                <li><a href="/hacks">Hacks</a></li>
-                <li><div id="theme-toggle">
-    <button id="light-mode" class="active" onclick="switchTheme('light')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
-      <i class="fas fa-sun fa-2xl"></i><br>
-    </button>
-    <button id="dark-mode" onclick="switchTheme('dark')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
-      <i class="fas fa-moon fa-2xl"></i><br>
-    </button>
-  </div></li>
-            </ul>
-            <h1 class="logo">Skool</h1>
-        </div>
-    </nav>
+    <div class="navbar-container container">
+      <input type="checkbox" name="" id="">
+      <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+      <ul class="menu-items">
+        <!--<li><a href="https://dsc.gg/skoolworld" target="_blank"><i class="fa-brands fa-discord fa-lg"></i></a></li>-->
+        <li><a href="/">Home</a></li>
+        <li><a href="/games">Games</a></li>
+        <li><a href="/apps">Apps</a></li>
+        <li><a href="/links/unblock">Unblocker</a></li>
+        <li><a href="/hacks">Hacks</a></li>
+        <li>
+          <div id="theme-toggle">
+            <button id="light-mode" class="active" onclick="switchTheme('light')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
+              <i class="fas fa-sun fa-2xl"></i><br>
+            </button>
+            <button id="dark-mode" onclick="switchTheme('dark')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
+              <i class="fas fa-moon fa-2xl"></i><br>
+            </button>
+          </div>
+        </li>
+      </ul>
+      <h1 class="logo">Skool</h1>
+    </div>
+  </nav>
   <script src="/js/navbar.js"></script>
   <script>
-  barba.init({
-  transitions: [{
-    name: 'opacity-transition',
-    leave(data) {
-      return gsap.to(data.current.container, {
-        opacity: 0
-      });
-    },
-    enter(data) {
-      return gsap.from(data.next.container, {
-        opacity: 0
-      });
-    }
-  }]
-});
-</script>
+    barba.init({
+      transitions: [{
+        name: 'opacity-transition',
+        leave(data) {
+          return gsap.to(data.current.container, {
+            opacity: 0
+          });
+        },
+        enter(data) {
+          return gsap.from(data.next.container, {
+            opacity: 0
+          });
+        }
+      }]
+    });
+  </script>
   <!--BEGIN EDITABLE HTML-->
   <br>
   <br>
   <br>
   <br>
   <p class="homedesc">If you recieve a "register service worker" error please click the button in the top-left corner of the error page</p>
-  <br> 
+  <br>
   <div class="gamecontainer" id="gamescontainer">
-  <div class="gamecard" style="display: table-cell;margin:10px;">
-    <a href="https://obliged-gisele-thetatertotgod.koyeb.app/uv/service/hvtrs8%2F-dksaopd%2Ccmm-lmgkn" target="_blank">
-    <img src="/img/discord.png" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">Discord</p></b>
-      <p class="gamedesc">Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.</p>
+    <div class="gamecard" style="display: table-cell;margin:10px;" onclick="openApp('https://obliged-gisele-thetatertotgod.koyeb.app/uv/service/hvtrs8%2F-dksaopd%2Ccmm-lmgkn')">
+      <img src="/img/discord.png" class="gameimage" />
+      <div class="gameinfo">
+        <b>
+          <p class="gamename">Discord</p>
+        </b>
+        <p class="gamedesc">Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities!</p>
+      </div>
     </div>
-    </a>
-  </div>
-   <div class="gamecard" style="display: table-cell;margin:10px;">
-    <a href="https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-" target="_blank">
-    <img src="/img/yt.png" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">Youtube</p></b>
-      <p class="gamedesc">YouTube is a free video sharing website that makes it easy to watch online videos.</p>
+    <div class="gamecard" style="display: table-cell;margin:10px;" onclick="openApp('https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-')">
+      <img src="/img/yt.png" class="gameimage" />
+      <div class="gameinfo">
+        <b>
+          <p class="gamename">Youtube</p>
+        </b>
+        <p class="gamedesc">YouTube is a free video sharing website that makes it easy to watch anyone's videos.</p>
+      </div>
     </div>
-    </a>
-  </div>
-   <div class="gamecard" style="display: table-cell;margin:10px;">
-    <a href="https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Cngtdlkx%2Ccmm-lmgkn" target="_blank">
-    <img src="/img/ntfx.png" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">Netflix</p></b>
-      <p class="gamedesc">Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies on an internet-connected device.</p>
+    <div class="gamecard" style="display: table-cell;margin:10px;" onclick="openApp('https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Cngtdlkx%2Ccmm-lmgkn')">
+      <img src="/img/ntfx.png" class="gameimage" />
+      <div class="gameinfo">
+        <b>
+          <p class="gamename">Netflix</p>
+        </b>
+        <p class="gamedesc">Netflix is a subscription-based streaming service that allows users to watch TV shows and movies on an internet-connected device.</p>
+      </div>
     </div>
-    </a>
-  </div>
-  <div class="gamecard" style="display: table-cell;margin:10px;">
-    <a href="https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Cdksle%7Bpnuq.aoo%2Fnoeil" target="_blank">
-    <img src="/img/dnp.png" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">Disney+</p></b>
-      <p class="gamedesc">Disney+ is the streaming home of Disney, Pixar, Marvel, Star Wars, National Geographic, and more.</p>
+    <div class="gamecard" style="display: table-cell;margin:10px;" onclick="openApp('https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Cdksle%7Bpnuq.aoo%2Fnoeil')">
+      <img src="/img/dnp.png" class="gameimage" />
+      <div class="gameinfo">
+        <b>
+          <p class="gamename">Disney+</p>
+        </b>
+        <p class="gamedesc">Disney+ is the streaming home of Disney, Pixar, Marvel, Star Wars, National Geographic, and more.</p>
+      </div>
     </div>
-    </a>
-  </div>
-   <div class="gamecard" style="display: table-cell;margin:10px;">
-    <a href="https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Ctkkvoi.aoo%2F" target="_blank">
-    <img src="/img/tt.png" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">Tiktok</p></b>
-      <p class="gamedesc">TikTok is a social media platform for creating, sharing and discovering short videos.</p>
+    <div class="gamecard" style="display: table-cell;margin:10px;" onclick="openApp('https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Ctkkvoi.aoo%2F')">
+      <img src="/img/tt.png" class="gameimage" />
+      <div class="gameinfo">
+        <b>
+          <p class="gamename">Tiktok</p>
+        </b>
+        <p class="gamedesc">TikTok is a social media platform for creating, sharing and discovering short videos.</p>
+      </div>
     </div>
-    </a>
-  </div>
-   <div class="gamecard" style="display: table-cell;margin:10px;">
-    <a href="https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Ctuivcj.vv-" target="_blank">
-    <img src="/img/tch.png" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">Twitch</p></b>
-      <p class="gamedesc">Twitch is an online live streaming video platform with a focus on gaming.</p>
+    <div class="gamecard" style="display: table-cell;margin:10px;" onclick="openApp('https://desmos.up.railway.app/uv/service/hvtrs8%2F-wuw%2Ctuivcj.vv-')">
+      <img src="/img/tch.png" class="gameimage" />
+      <div class="gameinfo">
+        <b>
+          <p class="gamename">Twitch</p>
+        </b>
+        <p class="gamedesc">Twitch is an online live streaming video platform with a focus on gaming.</p>
+      </div>
     </div>
-     </a>
- </div>
-<div class="gamecard" style="display: table-cell;margin:10px;">
-<a href="https://desmos.up.railway.app/uv/service/hvtrs8%2F-aacmultq.qncpahct%2Ccmm-aacmultq%2Ft2-lmgkn%3Dcmnvilug%3D%272Daacmultq%250Fuencmmg-" target="_blank">
-<img src="https://cdn.glitch.global/82c5292a-89b3-4a53-84e2-abbc0fa27724/580b57fcd9996e24bc43c536.png?v=1679015503010" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">SnapChat</p></b>
-      <p class="gamedesc">Snapchat is a social media app, it is used for communication and has story of many people.</p>
-   </div>
-     </a>
+    <div class="gamecard" style="display: table-cell;margin:10px;" onclick="openApp('https://desmos.up.railway.app/uv/service/hvtrs8%2F-aacmultq.qncpahct%2Ccmm-aacmultq%2Ft2-lmgkn%3Dcmnvilug%3D%272Daacmultq%250Fuencmmg-')">
+      <img src="https://cdn.glitch.global/82c5292a-89b3-4a53-84e2-abbc0fa27724/580b57fcd9996e24bc43c536.png?v=1679015503010" class="gameimage" />
+      <div class="gameinfo">
+        <b>
+          <p class="gamename">SnapChat</p>
+        </b>
+        <p class="gamedesc">Snapchat is a social media app, it is used for communication and has story of many people.</p>
+      </div>
     </div>
-<div class="gamecard" style="display: table-cell;margin:10px;">
-    <a href="https://desmos.up.railway.app/uv/service/hvtrs8%2F-aacmultq.qpmtkf%7B.aoo%2Fgn-lmgkn-" target="_blank">
-    <img src="https://cdn.glitch.global/82c5292a-89b3-4a53-84e2-abbc0fa27724/kOWO3V15_400x400.png?v=1679021879814" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">Spotify</p></b>
-      <p class="gamedesc">Spotify is a software that you can listen and have access to your favorite singers.</p>
+    <div class="gamecard" style="display: table-cell;margin:10px;" onclick="openApp('https://desmos.up.railway.app/uv/service/hvtrs8%2F-aacmultq.qpmtkf%7B.aoo%2Fgn-lmgkn-')">
+      <img src="https://cdn.glitch.global/82c5292a-89b3-4a53-84e2-abbc0fa27724/kOWO3V15_400x400.png?v=1679021879814" class="gameimage" />
+      <div class="gameinfo">
+        <b>
+          <p class="gamename">Spotify</p>
+        </b>
+        <p class="gamedesc">Spotify is a software that you can listen and have access to your favorite singers.</p>
+      </div>
     </div>
-     </a>
- </div> 
-  <!--END EDITABLE HTML-->
- <script src="/js/theme.js"></script>
-  <script src="/js/rainbowtext.js"></script>
+    <!--END EDITABLE HTML-->
+    <script>
+      const openApp = (app) => $('body').append(`<iframe src="${app}" width="100%" height="100%" style="border: none"></iframe>`);
+    </script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/rainbowtext.js"></script>
 </body>
