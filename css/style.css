@@ -334,3 +334,10 @@ input:focus {
   top: 0;
   z-index: 6969;
 }
+
+#frameCloser {
+  color: white;
+  top: 15px;
+  right: 15px;
+  position: absolute;
+}
