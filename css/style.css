@@ -340,9 +340,6 @@ input:focus {
   top: 15px;
   right: 15px;
   position: absolute;
-}
-
-#frameCloseButton {
   padding: 10px;
   background-clip: border-box;
   background-color: #36393e;
