@@ -318,3 +318,19 @@ input:focus {
   bottom: 20px;
   left: 6px;
 }
+
+#closeButton {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 69420;
+  width: 40px;
+  height: 40px;
+}
+
+#appFrame {
+  border: none;
+  position: absolute;
+  top: 0;
+  z-index: 6969;
+}
