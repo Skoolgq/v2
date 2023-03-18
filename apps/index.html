@@ -160,7 +160,9 @@
     <script>
       const openApp = (app) => $('body').append(`
         <iframe id="appframe" src="${app}" width="100%" height="100%"></iframe>
-        <div id="closeButton" onclick="$('#appframe').remove()"></div>
+        <div id="closeButton" onclick="$('#appframe').remove();$('#closeButton').remove();">
+          <i class="fas fa-close fa-2xl" id="frameCloser" aria-hidden="true"></i>
+        </div>
       `);
     </script>
     <script src="/js/theme.js"></script>
