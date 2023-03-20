@@ -71,8 +71,8 @@
   </div>
   <!--END EDITABLE HTML-->
   <script>
-    let game = localStorage.getItem("currentgame") || '/select';
-    document.getElementById('game-frame').src = game;
+    if (!localStorage.getItem('currentgame')) location.pathname = '/games';
+    document.getElementById('game-frame').src = localStorage.getItem("currentgame");
   </script>
   <script src="/js/theme.js"></script>
   <script src="/js/rainbowtext.js"></script>
