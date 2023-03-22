@@ -32,7 +32,7 @@ Note: This website requires you to host at the root of the domain or on a subdom
 2. Fork this repository by clicking the big gray "Fork" button in the top right of your screen
 3. Name the fork `yourgithubusernamehere.github.io` but replace "yourgithubusernamehere" with your github username <b>and keep it all lowercase</b>
 4. Go to <b>settings</b> then <b>pages</b> on the sidebar and use the dropdown to select <b>main</b> then click <b>save</b>:
-<img src="https://docs.github.com/assets/cb-18605/mw-1000/images/help/repository/sync-fork-dropdown.webp"  width="369" height="109">
+<img src="/img/pagesdropdown.png"  width="369" height="109">
 5. Wait about 5 minutes then open another tab and go to `yourgithubusernamehere.github.io` but replace "yourgithubusernamehere" with your github username
 6. You can keep this up-to-date with our site by clicking the sync fork button and clicking the green button every day or so:
 <img src="https://docs.github.com/assets/cb-18605/mw-1000/images/help/repository/sync-fork-dropdown.webp"  width="350" height="125">
