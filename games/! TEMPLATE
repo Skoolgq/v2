@@ -1,13 +1,15 @@
-<!--Begin card (copy here)-->
-  <li>
-  <div class="gamecard">
-    <a href="#" onclick="localStorage.setItem('currentgame', '(SOURCE)'); window.location.href = 'play';">
-    <img src="/img/imagepath.jpg" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">A really fun game</p></b>
-      <p class="gamedesc">This is a cool description you need to replace before publishing!</p>
-    </div>
-    </a>
-  </div>
-  </li>
-<!--End card (end copy here)-->
+      <!--Begin card (copy here)-->
+      <li>
+        <div class="gamecard">
+          <a href="#" onclick="localStorage.setItem('currentgame', 'GAME LINK HERE!'); window.location.href = 'play';">
+            <img src="GAME IMAGE HERE!" class="gameimage" />
+            <div class="gameinfo">
+              <b>
+                <p class="gamename">GAME NAME HERE!</p>
+              </b>
+              <p class="gamedesc">GAME DESCRIPTION HERE!</p>
+            </div>
+          </a>
+        </div>
+      </li>
+      <!--End card (end copy here)-->
