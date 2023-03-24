@@ -5,84 +5,95 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <script src="https://kit.fontawesome.com/204c1cf7c6.js" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+  
   <script src="https://unpkg.com/@barba/core"></script>
   <script src="/js/gsap/gsap.min.js"></script>
+  
+  <title>Skool | Hacks</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.png">
 </head>
+
 <body>
   <nav class="navbar">
-        <div class="navbar-container container">
-            <input type="checkbox" name="" id="">
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </div>
-             <ul class="menu-items">
-                <!--<li><a href="https://dsc.gg/skoolworld" target="_blank"><i class="fa-brands fa-discord fa-lg"></i></a></li>-->
-                <li><a href="/">Home</a></li>
-                <li><a href="/games">Games</a></li>
-                <li><a href="/apps">Apps</a></li>
-                <li><a href="/links/unblock">Unblocker</a></li>
-                <li><a href="/hacks">Hacks</a></li>
-                <li><div id="theme-toggle">
-    <button id="light-mode" class="active" onclick="switchTheme('light')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
-      <i class="fas fa-sun fa-2xl"></i><br>
-    </button>
-    <button id="dark-mode" onclick="switchTheme('dark')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
-      <i class="fas fa-moon fa-2xl"></i><br>
-    </button>
-  </div></li>
-            </ul>
-            <h1 class="logo">Skool</h1>
-        </div>
-    </nav>
+    <div class="navbar-container container">
+      <input type="checkbox" name="" id="">
+      <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+      <ul class="menu-items">
+        <!--<li><a href="https://dsc.gg/skoolworld" target="_blank"><i class="fa-brands fa-discord fa-lg"></i></a></li>-->
+        <li><a href="/">Home</a></li>
+        <li><a href="/games">Games</a></li>
+        <li><a href="/apps">Apps</a></li>
+        <li><a href="/links/unblock">Unblocker</a></li>
+        <li><a href="/hacks">Hacks</a></li>
+        <li>
+          <div id="theme-toggle">
+            <button id="light-mode" class="active" onclick="switchTheme('light')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
+              <i class="fas fa-sun fa-2xl"></i><br>
+            </button>
+            <button id="dark-mode" onclick="switchTheme('dark')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
+              <i class="fas fa-moon fa-2xl"></i><br>
+            </button>
+          </div>
+        </li>
+      </ul>
+      <h1 class="logo">Skool</h1>
+    </div>
+  </nav>
   <script src="/js/navbar.js"></script>
+  
   <script>
-  barba.init({
-  transitions: [{
-    name: 'opacity-transition',
-    leave(data) {
-      return gsap.to(data.current.container, {
-        opacity: 0
-      });
-    },
-    enter(data) {
-      return gsap.from(data.next.container, {
-        opacity: 0
-      });
-    }
-  }]
-});
-</script>
+    barba.init({
+      transitions: [{
+        name: 'opacity-transition',
+        leave(data) {
+          return gsap.to(data.current.container, {
+            opacity: 0
+          });
+        },
+        enter(data) {
+          return gsap.from(data.next.container, {
+            opacity: 0
+          });
+        }
+      }]
+    });
+  </script>
+  
   <!--BEGIN EDITABLE HTML-->
   <br>
   <br>
   <br>
-  <br>  
-  <div class="gamecard" style="display: table-cell;margin:10px;">
-    <a href="https://player.vimeo.com/video/757226180?h=8595d1f3e7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" target="_blank">
-    <img src="/img/how2use.png" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">Tutorial</p></b>
-      <p class="gamedesc">Blooket hacks tutorial</p>
-    </div>
-    </a>
-  </div>
-  <div class="gamecard" style="display: table-cell;margin:10px;">
-    <a href="https://raw.githubusercontent.com/Minesraft2/Blooket-Cheats/main/obfuscated/gui.js" target="_blank">
-    <img src="https://thumbs.dreamstime.com/b/blue-binary-square-background-vector-color-illustration-57240067.jpg" class="gameimage"/>
-    <div class="gameinfo">
-      <b><p class="gamename">Code</p></b>
-      <p class="gamedesc">Blooket hacks code, <b>WATCH VIDEO FIRST</b></p>
-    </div>
-    </a>
-  </div>
   <br>
-  <p class="gamename">Read the wiki in the Blooket Cheats <a href="//github.com/Minesraft2/Blooket-Cheats/wiki" target="_blank">Github repo</a> if you have questions</p>
+  <br>
+  <p class="homedesc">Made by OneMinesraft2#5372</p>
+  <br>
+  <p class="homedesc">Drag this button to your bookmark bar:</p>
+  <br>
+  <div class="text-center">
+    <a href="javascript:alert('null')" id="cheatsBtn">
+      <btn class="recent">Blooket Hack</btn>
+    </a>
+  </div>
+  
+  <script>
+    fetch("https://raw.githubusercontent.com/Minesraft2/Blooket-Cheats/main/obfuscated/gui.js", {
+      method: "GET"
+    }).then((data) => data.text()).then((data) => {
+      let cheats = encodeURIComponent(data.split('*/ ')[1]);
+      document.querySelector('#cheatsBtn').href = 'javascript:' + cheats;
+    }).catch((err) => {
+      console.error("Error fetching Blooket Cheats:", err);
+    });
+  </script>
   <!--END EDITABLE HTML-->
+  
   <script src="/js/theme.js"></script>
   <script src="/js/rainbowtext.js"></script>
 </body>
