@@ -85,8 +85,8 @@
   <script>
     fetch("https://raw.githubusercontent.com/Minesraft2/Blooket-Cheats/main/obfuscated/gui.js", {
       method: "GET"
-    }).then((r) => r.json()).then((data) => {
-      console.log(data);
+    }).then((data) => {
+      console.log(data.split('*/ ');
     }).catch((err) => {
       console.error("Error fetching Blooket cheats:", err);
     });
