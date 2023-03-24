@@ -77,7 +77,7 @@
   <p class="homedesc">Drag this button to your bookmark bar:</p>
   <br>
   <div class="text-center">
-    <a href="javascript:alert('null')">
+    <a href="javascript:alert('null')" id="cheatsBtn">
       <btn class="recent">Blooket Hack</btn>
     </a>
   </div>
@@ -85,10 +85,11 @@
   <script>
     fetch("https://raw.githubusercontent.com/Minesraft2/Blooket-Cheats/main/obfuscated/gui.js", {
       method: "GET"
-    }).then((data) => {
-      console.log(data.split('*/ ');
+    }).then((data) => data.text()).then((data) => {
+      let cheats = encodeURIComponent(data.split('*/ ')[1]);
+      document.querySelector('#cheatsBtn').href = 'javascript:' + cheats;
     }).catch((err) => {
-      console.error("Error fetching Blooket cheats:", err);
+      console.error("Error fetching Blooket Cheats:", err);
     });
   </script>
   <!--END EDITABLE HTML-->
