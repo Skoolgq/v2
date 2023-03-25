@@ -8,17 +8,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700" rel="stylesheet">
   
   <script src="/js/gsap/gsap.min.js"></script>
   <script src="https://unpkg.com/@barba/core"></script>
   <script src="https://cdn.counter.dev/script.js" data-id="b0b2d4b2-daca-47e1-9287-b9e649b3dcd2" data-utcoffset="-5"></script>
 
-  <title>Skool | Settings</title>
+  <meta http-equiv="refresh" content="3;URL='https://desmos.up.railway.app'" />
+  
+  <title>Skool | Loading...</title>
   <link rel="icon" type="image/x-icon" href="/img/favicon.png">
 </head>
 
-<body class="light">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-455KY5SYFH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-455KY5SYFH');
+</script>
+
+<body>
   <nav class="navbar">
     <div class="navbar-container container">
       <input type="checkbox" name="" id="">
@@ -37,10 +51,10 @@
         <li>
           <div id="theme-toggle">
             <button id="light-mode" class="active" onclick="switchTheme('light')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
-              <i class="fas fa-sun fa-2xl" aria-hidden="true"></i><br>
+              <i class="fas fa-sun fa-2xl"></i><br>
             </button>
             <button id="dark-mode" onclick="switchTheme('dark')" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default; outline: 0;">
-              <i class="fas fa-moon fa-2xl" aria-hidden="true"></i><br>
+              <i class="fas fa-moon fa-2xl"></i><br>
             </button>
           </div>
         </li>
@@ -48,51 +62,15 @@
       <h1 class="logo">Skool</h1>
     </div>
   </nav>
-  
   <script src="/js/navbar.js"></script>
-  
-  <!--start editable-->
+  <!--BEGIN EDITABLE HTML-->
   <br>
   <br>
   <br>
   <br>
-  <p class="gamescategory" style="width: 300px;height: 55px;font-size: 45px;">Cloakers</p>
-  <br>
-  <br>
-  <div class="text-center">
-    <btn class="recent" onclick="google();cloak();">Cloak Google</btn>
-    <br>
-    <br><br>
-    <btn class="recent" onclick="classroom();cloak();">Cloak Google Classroom</btn>
-    <br>
-    <br><br>
-    <btn class="recent" onclick="drive();cloak();">Cloak Google Drive</btn>
-    <script>
-      const drive = () => localStorage.cloaker = JSON.stringify({
-        "title": "My Drive - Google Drive",
-        "icon": "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"
-      });
-      const classroom = () => localStorage.cloaker = JSON.stringify({
-        "title": "Classes",
-        "icon": "https://ssl.gstatic.com/classroom/favicon.png"
-      });
-      const google = () => localStorage.cloaker = JSON.stringify({
-        "title": "Google",
-        "icon": "https://www.google.com/favicon.ico"
-      });
-    </script>
-  </div>
+  <h1 class="homename">Redirecting to unblocker</h1>
   <!--END EDITABLE HTML-->
-  
   <script src="/js/theme.js"></script>
-  <script src="/js/blanker.js"></script>
+  <script src="/js/rainbowtext.js"></script>
   <script src="/js/all.js"></script>
-  
-  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async="" defer="">
-    new Crate({
-      server: '950407933408198717', // Skool Community
-      channel: '1044626679638806631', // #uv-chat
-      notifications: false
-    })
-  </script>
 </body>
