@@ -15,7 +15,9 @@ discord.gg/skool
 
 ## Quick Deploy
 You can use any of these buttons to deploy Skool!<br>
-Some of these sites, such as Vercel and Replit, don't allow you to deploy unblockers. If you get terminated, this is not our fault.<br>
+Some of these sites, such as Vercel, Glitch, and Replit, don't allow you to deploy unblockers. If you get terminated, this is not our fault.<br>
+<br>
+We added `index.js` and package files to allow NodeJS deployment as well as static!<br>
 
 [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Skoolgq/skoolv2)
 <br>
