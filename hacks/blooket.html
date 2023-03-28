@@ -84,14 +84,21 @@
   </div>
   
   <script>
-    fetch("https://raw.githubusercontent.com/Minesraft2/Blooket-Cheats/main/obfuscated/gui.js", {
-      method: "GET"
-    }).then((data) => data.text()).then((data) => {
-      let cheats = encodeURIComponent(data.split('*/ ')[1]);
-      document.querySelector('#cheatsBtn').href = 'javascript:' + cheats;
-    }).catch((err) => {
-      console.error("Error fetching Blooket Cheats:", err);
-    });
+    try {
+      fetch("https://raw.githubusercontent.com/Minesraft2/Blooket-Cheats/main/obfuscated/gui.js", {
+        method: "GET"
+      }).then((data) => data.text()).then((data) => {
+        let cheats = encodeURIComponent(data.split('*/ ')[1]);
+        document.querySelector('#cheatsBtn').href = 'javascript:' + cheats;
+      });
+    } catch {
+      fetch("https://raw.githubusercontent.com/VillainsRule/Blooket-Site/main/obfuscated/gui.js", {
+        method: "GET"
+      }).then((data) => data.text()).then((data) => {
+        let cheats = encodeURIComponent(data.split('*/ ')[1]);
+        document.querySelector('#cheatsBtn').href = 'javascript:' + cheats;
+      });
+    };
   </script>
   <!--END EDITABLE HTML-->
   
