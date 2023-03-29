@@ -1,0 +1,30 @@
+{
+  "name": "skool",
+  "description": "A professional game and proxy site where you can bypass any school or work restrictions.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i && npm i express path",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skoolgq/skoolv2.git"
+  },
+  "keywords": [
+    "skool",
+    "unblocker",
+    "games",
+    "proxy",
+    "ultraviolet"
+  ],
+  "author": "skoolgq",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/Skoolgq/skoolv2/issues"
+  },
+  "homepage": "https://github.com/Skoolgq/skoolv2#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
