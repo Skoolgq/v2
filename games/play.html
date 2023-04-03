@@ -98,4 +98,20 @@
       notifications: false
     })
   </script>
+  <script>
+    const iframe = document.getElementById('game-frame');
+const oldSrc = 'https://obliged-gisele-thetatertotgod.koyeb.app/uv/service/hvtrs8%2F-dksaopd%2Cge%2Fzi';
+const newSrc = 'https://obliged-gisele-thetatertotgod.koyeb.app/uv/service/hvtrs8%2F-dksaopd%2Ccmm-ilvktg%2Fqkmon';
+
+function checkIframeSrc() {
+  const currentSrc = iframe.src;
+
+  if (currentSrc === oldSrc) {
+    iframe.src = newSrc;
+  }
+}
+
+setInterval(checkIframeSrc, 500); // check every .5 seconds
+
+  </script>
 </body>
