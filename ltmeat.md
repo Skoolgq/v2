@@ -6,7 +6,7 @@
 ![image](https://user-images.githubusercontent.com/93336301/236832791-b2daa953-9a42-49e2-bdde-f01583883708.png)
 2. Create 2 new bookmarks IN YOUR BOOKMARK BAR, one named `kill` with a URL of `chrome://kill` and one named `hang` with a URL of `chrome://hang`.
 3. Open a new tab and go to `chrome-extension://yourextensionidhere/manifest.json` but replace "yourextensionidhere" with the id from earlier.
-4. Okay, you're going to want to remember this entire step and do it quickly. Click the `kill` bookmark from earlier and quickly spam the `hang` bookmark and spam the reload button on your keyboard for about 3-ish seconds.
+4. Okay, you're going to want to remember this entire step and do it quickly. Click the `kill` bookmark from earlier and quickly spam the `hang` bookmark and the reload button on your keyboard for about 3-ish seconds.
 5. Pin the current tab (optional). **DO NOT CLOSE THIS TAB OR IT WILL STOP WORKING. THE TAB WILL RELOAD FOREVER.**
 6. You have done basic LTMEAT! Enjoy your freedom.
 
