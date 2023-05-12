@@ -1,18 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap');
-html, body {
+
+html,
+body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
 }
+
 @keyframes fade-in-move-up {
-    0% {opacity: 0%; top: 110%;}
-    100% {opacity: 100%; top: 50%}
+  0% {
+    opacity: 0%;
+    top: 110%;
+  }
+
+  100% {
+    opacity: 100%;
+    top: 50%
+  }
 }
-body{
+
+body {
   justify-content: center;
   align-items: center;
 }
+
 body.light {
   background-image: url('/backgrounds/mainbg.gif');
   background-size: cover;
@@ -20,33 +32,40 @@ body.light {
   color: black;
   overflow-x: hidden;
 }
+
 body.dark {
   background-color: #36393e;
   color: white;
   overflow-x: hidden;
 }
+
 #theme-toggle {
   /* styles for the toggle switch */
 }
+
 #theme-toggle button {
   /* styles for the toggle buttons */
 }
+
 #theme-toggle button.active {
   /* styles for the active toggle button */
 }
+
 .gamedesc {
   font-family: 'Nunito Sans';
   font-size: 8px;
   text-align: center;
 }
+
 .topinfo {
   font-family: 'Nunito Sans';
   font-size: 20px;
   text-align: center;
 }
+
 .gamescategory {
   background-color: #1f2124;
-  border-radius:20px;
+  border-radius: 20px;
   margin: auto;
   width: 200px;
   height: 55px;
@@ -56,15 +75,31 @@ body.dark {
   text-align: center;
   color: white;
 }
-#iframe{
+
+.category {
+  background-color: #1f2124;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0px 5px 10px 0px #2e2e2e;
+  font-family: 'Lilita One';
+  text-align: center;
+  color: white;
+  height: 55px;
+  font-size: 45px;
+}
+
+#iframe {
   width: 90%;
 }
+
 homename.light {
   color: rgb(16, 2, 18);
 }
+
 homename.dark {
   color: rgb(255, 255, 255);
 }
+
 .homename {
   font-family: 'Lilita One';
   text-shadow: 6px 6px #d93beb, 6px 6px 16px #d93beb;
@@ -73,40 +108,47 @@ homename.dark {
   text-align: center;
   /*margin-right: 12px;*/
 }
-h1{
+
+h1 {
   font-family: 'Lilita One';
 }
-.homenamebox{
+
+.homenamebox {
   background: #1e2124;
   opacity: 0.85;
-  border-radius:20px;
+  border-radius: 20px;
   margin: auto;
   width: 325px;
   box-shadow: 0px 5px 10px 0px #2e2e2e;
   text-align: center;
 }
+
 .homedesc {
   font-family: 'Lilita One';
   color: white;
   text-align: center;
   font-size: 20px;
 }
+
 .homedescbox {
   background: #1e2124;
   opacity: 0.85;
-  border-radius:20px;
+  border-radius: 20px;
   margin: auto;
   width: 400px;
   padding: 20px;
   box-shadow: 0px 5px 10px 0px #2e2e2e;
 }
-#iframe{
+
+#iframe {
   width: 90%;
 }
+
 .checkbox {
   opacity: 0;
   position: absolute;
 }
+
 .checkbox-label {
   background-color: #111;
   width: 50px;
@@ -119,8 +161,15 @@ h1{
   justify-content: space-between;
   align-items: center;
 }
-.fa-moon {color: white;}
-.fa-sun {color: white;}
+
+.fa-moon {
+  color: white;
+}
+
+.fa-sun {
+  color: white;
+}
+
 .checkbox-label .ball {
   background-color: #fff;
   width: 22px;
@@ -131,49 +180,57 @@ h1{
   border-radius: 50%;
   transition: transform 0.2s linear;
 }
-.checkbox:checked + .checkbox-label .ball {
+
+.checkbox:checked+.checkbox-label .ball {
   transform: translateX(24px);
 }
 
-.gameinfo{
+.gameinfo {
   color: white;
   text-align: center;
   padding: 3px;
   font-size: 10px;
   font-family: 'Nunito Sans';
 }
-.gameimage{
+
+.gameimage {
   width: 150px;
   height: 150px;
-  display:inline-block; 
-  padding:0px; 
-  margin:0px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
   border-radius: 20px;
 }
-.gamecard{
+
+.gamecard {
   width: 170px;
   height: 270px;
   background-color: #2e2e2e;
-  padding: 10px; 
+  padding: 10px;
   margin: 10px;
   border-radius: 20px;
   transition: transform .5s;
   justify-content: left;
   float: left;
-  box-shadow: 0px 5px 10px 0px #2e2e2e,  0px 0px 1px 0px #2e2e2e;
-  
+  box-shadow: 0px 5px 10px 0px #2e2e2e, 0px 0px 1px 0px #2e2e2e;
+
 }
-.gamecard:hover{
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+
+.gamecard:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
   transform: scale(1.1);
   box-shadow: 0px 5px 10px 0px #2e2e2e, 0px 0px 3px 0px #2e2e2e;
 }
-.gamename{
+
+.gamename {
   font-size: 20px;
   font-family: 'Nunito Sans';
 }
-.gamecontainer{
+
+.gamecontainer {
   display: flex;
   flex-direction: row;
   order: 0;
@@ -182,25 +239,33 @@ h1{
   align-items: center;
   justify-content: center;
   padding: 10px;
-}  
-a:link{
+}
+
+a:link {
   text-decoration: none;
 }
+
 #votes {
   display: flex;
   align-items: center;
 }
-#thumbs-up, #thumbs-down {
+
+#thumbs-up,
+#thumbs-down {
   cursor: pointer;
   margin-right: 10px;
 }
-#thumbs-up i, #thumbs-down i {
+
+#thumbs-up i,
+#thumbs-down i {
   font-size: 2em;
 }
-#fullscreen-button{
+
+#fullscreen-button {
   bottom: -430px;
   right: -1300px;
 }
+
 .search-container {
   display: flex;
   flex-direction: row;
@@ -210,15 +275,20 @@ a:link{
   align-items: center;
   justify-content: center;
 }
+
 li {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-*, *::before, *::after {
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
-#myInput{
+
+#myInput {
   left: 50%;
   right: 50%;
   width: 400px;
@@ -232,12 +302,15 @@ li {
   border-style: hidden;
   box-shadow: 0px 5px 10px 0px #2e2e2e;
 }
+
 input:focus {
-    outline-width: 0;
+  outline-width: 0;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
+
 .btn {
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -255,7 +328,9 @@ input:focus {
 
 .btn:hover {
   background-color: #2e2e2e;
+  cursor: pointer;
 }
+
 .btn:active {
   background-color: #2e2e2e;
   color: black;
@@ -284,6 +359,7 @@ input:focus {
   cursor: pointer;
   background-color: #2e2e2e;
 }
+
 .recent:active {
   background-color: #2e2e2e;
   transform: translateY(2px);
@@ -308,6 +384,7 @@ input:focus {
 .flbtn:hover {
   background-color: #2e2e2e;
 }
+
 .flbtn:active {
   background-color: #2e2e2e;
   color: black;
@@ -346,4 +423,26 @@ input:focus {
   padding-top: 18px;
   padding-bottom: 18px;
   border-radius: 10px;
+}
+
+.form {
+  margin-top: 20px;
+}
+.textBox
+{
+  text-align: center;
+  background: #1e2124;
+  opacity: 0.85;
+  font-family: 'Lilita One';
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 1rem;
+  width: 200px;
+  padding: 0.5rem;
+  border: none;
+  color: white;
+  position: relative;
+  top: 0;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px #2e2e2e;
 }
