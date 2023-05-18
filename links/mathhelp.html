@@ -65,7 +65,24 @@
   <br>
   <br>
   <div class="game-frame-div" style="margin: 0 auto;">
-    <iframe style="margin: 0 auto; display: block; border: 2vw solid black; border-radius: 1vw;" id="app-frame" frameborder="0" width="75%" height="80%" cellspacing="0" src="https://skoolv3.vercel.app/uv/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2F%3Dgus%5Drf%3Dqsn"></iframe>
+    <iframe style="margin: 0 auto; display: block; border: 2vw solid black; border-radius: 1vw;" id="app-frame" frameborder="0" width="75%" height="80%" cellspacing="0" src=""></iframe>
+    <script>
+    // add proxy urls
+const urlList = [
+  'https://campusdirections.org/runtime~react/service',
+  'https://cheapdogs.org/runtime~react/service'
+];
+
+// gets the iFrame
+const iFrame = document.querySelector('#app-frame');
+
+// randomly choose a proxy from the array
+const randomUrl = urlList[Math.floor(Math.random() * urlList.length)];
+
+// set the iFrame's source to the randomly chosen proxy
+iFrame.src = randomUrl + "/hvtrs8%2F-wuw%2Cgmoelg.aoo%2F%3Dgus%5Drf%3Dqsn";
+
+    </script>
     <!--<script>
       document.getElementById("app-frame").src = "https://" + localStorage.uvBackend
     </script>-->
