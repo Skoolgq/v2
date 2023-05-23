@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm i && npm i express path",
+    "build": "npm i && npm i express",
     "run": "node index.js"
   },
   "repository": {
