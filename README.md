@@ -6,23 +6,17 @@ discord.gg/skool
 ![Commit activity](https://img.shields.io/github/commit-activity/w/Skoolgq/skoolgq.github.io?style=for-the-badge)
 
 ## Links
-* ~~https://skool.world~~  (currently down)
 * https://skool.lol
-* https://mathhomework.pages.dev
-* https://mathhomework.netlify.app
-* https://skool-lol.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp
+* https://skool.gay
+* https://peeloffyour.skin
 * Join our [Discord](https://discord.gg/skool) for more...
 
 ## Quick Deploy
 You can use any of these buttons to deploy Skool!<br>
-Some of these sites, such as Vercel, Glitch, and Replit, don't allow you to deploy unblockers. If you get terminated, this is not our fault.<br>
+Do not deploy to Heroku, Replit, or Render. They don't allow proxies to be deployed.<br>
+For the other deployment options, if they ban you for deploying, it's not our fault.<br>
 <br>
-We added `index.js` and package files to allow NodeJS deployment as well as static!<br>
 
-[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Skoolgq/skoolv2)
-<br>
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/Skoolgq/skoolv2)
-<br>
 [![Deploy to IBM Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/ibmcloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/Skoolgq/skoolv2)
 <br>
 [![Deploy to Amplify Console](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/Skoolgq/skoolv2)
@@ -38,8 +32,6 @@ We added `index.js` and package files to allow NodeJS deployment as well as stat
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/Skoolgq/skoolv2)
 <br>
 [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/BinBashBanana/deploy-buttons)
-<br>
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/Skoolgq/skoolv2)
 <br>
 [![Deploy to Oracle Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/Skoolgq/skoolv2/archive/refs/heads/main.zip)
 <br>
@@ -112,4 +104,4 @@ To keep your little version updated, follow these steps daily:
 
 5. Wait ~3 minutes, and your little site should be updated!
 
-This step-by-step guide for idiots was painfully writen by VillainsRule. Please read this instead of making stupid issues.
+This step-by-step guide for idiots was painfully writen by [VillainsRule](https://github.com/VillainsRule). Please read this instead of making stupid issues.
