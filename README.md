@@ -1,12 +1,11 @@
 # Skool
-discord.gg/skool
+dsc.gg/skool
 #### A professional game and proxy site where you can bypass any school or work restrictions.
 ----
 ![Discord](https://img.shields.io/discord/950407933408198717?label=Discord&style=for-the-badge)
 ![Commit activity](https://img.shields.io/github/commit-activity/w/Skoolgq/skoolgq.github.io?style=for-the-badge)
 
 ## Links
-* https://skool.lol
 * https://skool.gay
 * https://peeloffyour.skin
 * Join our [Discord](https://discord.gg/skool) for more...
@@ -17,14 +16,6 @@ Do not deploy to Heroku, Replit, or Render. They don't allow proxies to be deplo
 For the other deployment options, if they ban you for deploying, it's not our fault.<br>
 <br>
 
-[![Deploy to IBM Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/ibmcloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/Skoolgq/skoolv2)
-<br>
-[![Deploy to Amplify Console](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/Skoolgq/skoolv2)
-<br>
-[![Run on Google Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/Skoolgq/skoolv2)
-<br>
-[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template/Dxtugg)
-<br>
 [![Deploy To Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Skoolgq/skoolv2&branch=main&name=skoolgq)
 <br>
 [![Deploy to Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Skoolgq/skoolv2)
@@ -33,9 +24,6 @@ For the other deployment options, if they ban you for deploying, it's not our fa
 <br>
 [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/BinBashBanana/deploy-buttons)
 <br>
-[![Deploy to Oracle Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/Skoolgq/skoolv2/archive/refs/heads/main.zip)
-<br>
-
 
 ## Self-Hosting
 Note: This website requires you to host at the root of the domain or on a subdomain.
