@@ -8,7 +8,7 @@ dsc.gg/skool
 ## Links
 * https://skool.gay
 * https://peeloffyour.skin
-* Join our [Discord](https://discord.gg/skool) for more...
+* Join our [Discord](https://dsc.gg/skool) for more...
 
 ## Quick Deploy
 You can use any of these buttons to deploy Skool!<br>
