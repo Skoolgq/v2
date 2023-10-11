@@ -71,23 +71,34 @@
   </nav>
   
   <script src="/js/navbar.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   
   <script>
-    barba.init({
-      transitions: [{
-        name: 'opacity-transition',
-        leave(data) {
-          return gsap.to(data.current.container, {
-            opacity: 0
-          });
-        },
-        enter(data) {
-          return gsap.from(data.next.container, {
-            opacity: 0
-          });
-        }
-      }]
-    });
+   function handleButtonClick(action) {
+    if (action === 'close') {
+      swal.close();
+    } else if (action === 'open') {
+      window.open('https://polarislearning.org', '_blank');
+    }
+  }
+
+  swal({
+    title: 'New Version!',
+    text: 'We have launched a new version of the site. It is much better than this version.',
+    icon: 'info',
+    buttons: {
+      close: {
+        text: 'Close',
+        value: 'close',
+      },
+      open: {
+        text: 'Open',
+        value: 'open',
+      },
+    },
+  }).then((value) => {
+    handleButtonClick(value);
+  });
   </script>
   
   <!--BEGIN EDITABLE HTML-->
