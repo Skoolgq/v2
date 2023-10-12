@@ -1,4 +1,5 @@
-# Skool
+# SkoolV2 Archive
+> This is our old version. Use [version 3/Polaris](https://github.com/Skoolgq/Polaris) now.
 dsc.gg/skool
 #### A professional game and proxy site where you can bypass any school or work restrictions.
 ----
